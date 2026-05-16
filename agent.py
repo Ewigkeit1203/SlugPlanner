@@ -65,18 +65,42 @@ def parse_input(user_input):
 
     return target_units, min_rating, no_early, completed
 
+def detect_major(user_input):
+    """Detect major prefix from user input with fallback matching."""
+    input_lower = user_input.lower()
+
+    major_map = {
+        'CSE': ['cs major', 'computer science', 'cse major', 'software', 'computing'],
+        'MATH': ['math major', 'mathematics', 'applied math'],
+        'BIOL': ['biology major', 'bio major', 'biological'],
+        'PHYS': ['physics major', 'physics'],
+        'CHEM': ['chemistry major', 'chem major'],
+        'ECON': ['econ major', 'economics major', 'economics'],
+        'PSYC': ['psychology major', 'psych major', 'psychology'],
+        'ENGR': ['engineering major', 'general engineering'],
+        'ECE': ['electrical engineering', 'ece major', 'electrical eng'],
+        'LING': ['linguistics major', 'ling major'],
+        'PHIL': ['philosophy major', 'phil major'],
+        'SOCY': ['sociology major', 'sociology'],
+        'HIST': ['history major', 'history'],
+        'ANTH': ['anthropology major', 'anth major'],
+    }
+
+    for prefix, keywords in major_map.items():
+        if any(kw in input_lower for kw in keywords):
+            return prefix
+
+    return None
+
 def meets_prerequisites(prereqs, completed_normalized):
     """Check if completed courses satisfy prerequisites."""
     if not prereqs or prereqs == 'None' or 'section not found' in prereqs:
         return True
 
-    # Extract all course codes mentioned in prereqs
     required = re.findall(r'[A-Z]{2,4}\s*\d+[A-Z]?', prereqs)
     if not required:
         return True
 
-    # Check if at least one prereq option is met
-    # Most UCSC prereqs use "or" between options
     for req in required:
         if req.replace(' ', '') in completed_normalized:
             return True
@@ -87,10 +111,8 @@ def recommend_schedule(user_input):
     target_units, min_rating, no_early, completed = parse_input(user_input)
     courses, rmp_cache = load_data()
 
-    # Normalize completed courses for comparison
     completed_normalized = [c.replace(' ', '') for c in completed]
 
-    # Get minimum course number from completed to filter out lower level courses
     completed_nums = []
     for c in completed:
         num = re.search(r'\d+', c)
@@ -98,17 +120,7 @@ def recommend_schedule(user_input):
             completed_nums.append(int(num.group()))
     min_completed_num = min(completed_nums) if completed_nums else 0
 
-    # Detect major and sort matching courses first
-    major_prefix = None
-    input_lower = user_input.lower()
-    if 'cs major' in input_lower or 'computer science' in input_lower:
-        major_prefix = 'CSE'
-    elif 'math major' in input_lower or 'mathematics' in input_lower:
-        major_prefix = 'MATH'
-    elif 'biology major' in input_lower:
-        major_prefix = 'BIOL'
-    elif 'physics major' in input_lower:
-        major_prefix = 'PHYS'
+    major_prefix = detect_major(user_input)
 
     if major_prefix:
         courses = sorted(courses, key=lambda c: (0 if major_prefix in c.get('title', '') else 1))
@@ -127,7 +139,8 @@ def recommend_schedule(user_input):
         rating = rmp['rating']
         prereqs = course.get('prerequisites', 'None')
 
-        if not instructor or not time:
+        # Skip missing instructor, time, or unassigned staff
+        if not instructor or not time or instructor.lower() == 'staff':
             continue
 
         if no_early and time and any(t in time for t in ['8:', '08:']):
@@ -136,8 +149,9 @@ def recommend_schedule(user_input):
         if rating and rating < min_rating:
             continue
 
-        # Skip already completed courses
         course_code = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', course.get('title', ''))
+
+        # Skip already completed courses
         if course_code and course_code.group().replace(' ', '') in completed_normalized:
             continue
 
