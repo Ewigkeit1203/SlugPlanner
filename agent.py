@@ -89,7 +89,6 @@ def detect_major(user_input):
             return prefix
     return None
 
-# Maps major prefixes to their full department names as they appear in restriction text
 MAJOR_RESTRICTION_NAMES = {
     'CSE': ['computer science', 'computer engineering'],
     'MATH': ['mathematics'],
@@ -108,7 +107,6 @@ MAJOR_RESTRICTION_NAMES = {
 }
 
 def is_restricted_to_other_major(prereqs, major_prefix):
-    """Returns True if course is restricted to majors other than the student's."""
     if 'enrollment is restricted to' not in prereqs.lower() and 'restricted to' not in prereqs.lower():
         return False
     if not major_prefix:
@@ -147,7 +145,6 @@ def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
         if not is_major_pass and rating and rating < min_rating:
             continue
 
-        # Skip courses restricted to other majors
         if is_restricted_to_other_major(prereqs, major_prefix):
             continue
 
@@ -159,7 +156,6 @@ def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
             if course_code in completed_normalized:
                 continue
 
-            # Skip antirequisites
             if any(c in prereqs for c in completed_normalized):
                 if 'cannot enroll' in prereqs.lower() or 'antirequisite' in prereqs.lower():
                     continue
@@ -237,6 +233,36 @@ def recommend_schedule(user_input):
             is_major_pass=False, existing_units=total_units, existing_recommendations=recommended,
             major_prefix=major_prefix
         )
+
+    # Add missing degree requirements
+    try:
+        from major_requirements import get_missing_requirements
+        if major_prefix:
+            missing = get_missing_requirements(major_prefix, completed)
+            for course in courses:
+                if total_units >= target_units:
+                    break
+                title = course.get('title', '')
+                for req in missing:
+                    if req in title.replace(' ', ''):
+                        instructor = extract_instructor(course.get('content', ''))
+                        time = extract_time(course.get('content', ''))
+                        if instructor and time and instructor.lower() != 'staff':
+                            recommended.insert(0, {
+                                'title': clean_text(title),
+                                'instructor': instructor,
+                                'rmp_rating': get_rmp_data(instructor, rmp_cache)['rating'],
+                                'rmp_difficulty': get_rmp_data(instructor, rmp_cache)['difficulty'],
+                                'would_take_again_percent': get_rmp_data(instructor, rmp_cache)['would_take_again'],
+                                'time': time,
+                                'prerequisites': course.get('prerequisites', 'None'),
+                                'units': 5,
+                                'required_for_degree': True
+                            })
+                            missing.remove(req)
+                            break
+    except Exception:
+        pass
 
     return recommended
 
