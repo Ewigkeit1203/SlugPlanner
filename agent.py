@@ -123,7 +123,9 @@ def recommend_schedule(user_input):
     major_prefix = detect_major(user_input)
 
     if major_prefix:
-        courses = sorted(courses, key=lambda c: (0 if major_prefix in c.get('title', '') else 1))
+        major_courses = [c for c in courses if major_prefix in c.get('title', '')]
+        other_courses = [c for c in courses if major_prefix not in c.get('title', '')]
+        courses = major_courses + other_courses
 
     recommended = []
     total_units = 0
