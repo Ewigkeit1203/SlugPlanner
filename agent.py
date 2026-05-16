@@ -57,7 +57,7 @@ def parse_input(user_input):
     if match := re.search(r'(\d+)\s*units', user_input, re.I):
         target_units = int(match.group(1))
     if any(w in user_input.lower() for w in ['easy', 'good professor', 'high rated']):
-        min_rating = 4.0
+        min_rating = 3.5
     if any(w in user_input.lower() for w in ['no 8', 'no early', 'no morning']):
         no_early = True
 
@@ -66,7 +66,6 @@ def parse_input(user_input):
     return target_units, min_rating, no_early, completed
 
 def detect_major(user_input):
-    """Detect major prefix from user input with fallback matching."""
     input_lower = user_input.lower()
 
     major_map = {
@@ -93,7 +92,6 @@ def detect_major(user_input):
     return None
 
 def meets_prerequisites(prereqs, completed_normalized):
-    """Check if completed courses satisfy prerequisites."""
     if not prereqs or prereqs == 'None' or 'section not found' in prereqs:
         return True
 
@@ -106,6 +104,62 @@ def meets_prerequisites(prereqs, completed_normalized):
             return True
 
     return False
+
+def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
+                   min_completed_num, min_rating, no_early, target_units):
+    """Filter courses and return recommendations up to target units."""
+    recommended = []
+    total_units = 0
+
+    for course in courses:
+        if total_units >= target_units:
+            break
+
+        content = course.get('content', '')
+        time = extract_time(content)
+        instructor = extract_instructor(content)
+        rmp = get_rmp_data(instructor, rmp_cache)
+        rating = rmp['rating']
+        prereqs = course.get('prerequisites', 'None')
+
+        if not instructor or not time or instructor.lower() == 'staff':
+            continue
+
+        if no_early and time and any(t in time for t in ['8:', '08:']):
+            continue
+
+        if rating and rating < min_rating:
+            continue
+
+        course_code = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', course.get('title', ''))
+
+        if course_code and course_code.group().replace(' ', '') in completed_normalized:
+            continue
+
+        if course_code and completed_nums:
+            course_num = re.search(r'\d+', course_code.group())
+            if course_num:
+                num = int(course_num.group())
+                if num < min_completed_num or num >= 200:
+                    continue
+
+        if completed_normalized and not meets_prerequisites(prereqs, completed_normalized):
+            continue
+
+        units = extract_units(content)
+        recommended.append({
+            'title': clean_text(course.get('title', '')),
+            'instructor': instructor,
+            'rmp_rating': rating,
+            'rmp_difficulty': rmp['difficulty'],
+            'would_take_again_percent': rmp['would_take_again'],
+            'time': time,
+            'prerequisites': prereqs,
+            'units': units
+        })
+        total_units += units
+
+    return recommended
 
 def recommend_schedule(user_input):
     target_units, min_rating, no_early, completed = parse_input(user_input)
@@ -127,60 +181,27 @@ def recommend_schedule(user_input):
         other_courses = [c for c in courses if major_prefix not in c.get('title', '')]
         courses = major_courses + other_courses
 
-    recommended = []
-    total_units = 0
+    # First attempt with requested min_rating
+    recommended = filter_courses(
+        courses, rmp_cache, completed_normalized, completed_nums,
+        min_completed_num, min_rating, no_early, target_units
+    )
 
-    for course in courses:
-        if total_units >= target_units:
-            break
+    # Fallback: if not enough courses found, lower rating threshold by 0.5
+    if len(recommended) < 3 and min_rating > 2.0:
+        fallback_rating = min_rating - 0.5
+        recommended = filter_courses(
+            courses, rmp_cache, completed_normalized, completed_nums,
+            min_completed_num, fallback_rating, no_early, target_units
+        )
 
-        content = course.get('content', '')
-        time = extract_time(content)
-        instructor = extract_instructor(content)
-        rmp = get_rmp_data(instructor, rmp_cache)
-        rating = rmp['rating']
-        prereqs = course.get('prerequisites', 'None')
-
-        # Skip missing instructor, time, or unassigned staff
-        if not instructor or not time or instructor.lower() == 'staff':
-            continue
-
-        if no_early and time and any(t in time for t in ['8:', '08:']):
-            continue
-
-        if rating and rating < min_rating:
-            continue
-
-        course_code = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', course.get('title', ''))
-
-        # Skip already completed courses
-        if course_code and course_code.group().replace(' ', '') in completed_normalized:
-            continue
-
-        # Skip courses below user's level or graduate level (200+)
-        if course_code and completed_nums:
-            course_num = re.search(r'\d+', course_code.group())
-            if course_num:
-                num = int(course_num.group())
-                if num < min_completed_num or num >= 200:
-                    continue
-
-        # Skip courses whose prerequisites user hasn't met
-        if completed_normalized and not meets_prerequisites(prereqs, completed_normalized):
-            continue
-
-        units = extract_units(content)
-        recommended.append({
-            'title': clean_text(course.get('title', '')),
-            'instructor': instructor,
-            'rmp_rating': rating,
-            'rmp_difficulty': rmp['difficulty'],
-            'would_take_again_percent': rmp['would_take_again'],
-            'time': time,
-            'prerequisites': prereqs,
-            'units': units
-        })
-        total_units += units
+    # Second fallback: lower by another 0.5
+    if len(recommended) < 3 and min_rating > 1.5:
+        fallback_rating = min_rating - 1.0
+        recommended = filter_courses(
+            courses, rmp_cache, completed_normalized, completed_nums,
+            min_completed_num, fallback_rating, no_early, target_units
+        )
 
     return recommended
 
