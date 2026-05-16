@@ -37,17 +37,22 @@ def extract_time(content):
             return clean_text(line)
     return None
 
-def get_rmp_rating(instructor, rmp_cache):
+def get_rmp_data(instructor, rmp_cache):
     if instructor and instructor in rmp_cache:
         data = rmp_cache[instructor]
         if data.get('status') == 'ok':
-            return data.get('avg_rating', 0)
-    return None
+            return {
+                'rating': data.get('avg_rating'),
+                'difficulty': data.get('avg_difficulty'),
+                'would_take_again': data.get('would_take_again_percent')
+            }
+    return {'rating': None, 'difficulty': None, 'would_take_again': None}
 
 def parse_input(user_input):
     target_units = 15
     min_rating = 3.5
     no_early = False
+    completed = []
 
     if match := re.search(r'(\d+)\s*units', user_input, re.I):
         target_units = int(match.group(1))
@@ -56,10 +61,12 @@ def parse_input(user_input):
     if any(w in user_input.lower() for w in ['no 8', 'no early', 'no morning']):
         no_early = True
 
-    return target_units, min_rating, no_early
+    completed = re.findall(r'[A-Z]{2,4}\s*\d+[A-Z]?', user_input)
+
+    return target_units, min_rating, no_early, completed
 
 def recommend_schedule(user_input):
-    target_units, min_rating, no_early = parse_input(user_input)
+    target_units, min_rating, no_early, completed = parse_input(user_input)
     courses, rmp_cache = load_data()
 
     recommended = []
@@ -72,7 +79,12 @@ def recommend_schedule(user_input):
         content = course.get('content', '')
         time = extract_time(content)
         instructor = extract_instructor(content)
-        rating = get_rmp_rating(instructor, rmp_cache)
+        rmp = get_rmp_data(instructor, rmp_cache)
+        rating = rmp['rating']
+        prereqs = course.get('prerequisites', 'None')
+
+        if not instructor or not time:
+            continue
 
         if no_early and time and any(t in time for t in ['8:', '08:']):
             continue
@@ -80,13 +92,20 @@ def recommend_schedule(user_input):
         if rating and rating < min_rating:
             continue
 
+        # Skip already completed courses
+        course_code = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', course.get('title', ''))
+        if course_code and course_code.group().replace(' ', '') in [c.replace(' ', '') for c in completed]:
+            continue
+
         units = extract_units(content)
         recommended.append({
             'title': clean_text(course.get('title', '')),
             'instructor': instructor,
             'rmp_rating': rating,
+            'rmp_difficulty': rmp['difficulty'],
+            'would_take_again_percent': rmp['would_take_again'],
             'time': time,
-            'prerequisites': course.get('prerequisites', 'None'),
+            'prerequisites': prereqs,
             'units': units
         })
         total_units += units
