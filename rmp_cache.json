@@ -1,0 +1,5777 @@
+{
+    "Dey,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDc2ODg2",
+        "first_name": "Papri",
+        "last_name": "Dey",
+        "avg_rating": 2.3,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 37.5,
+        "num_ratings": 16
+    },
+    "Wintz,P.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTU1MzQ0",
+        "first_name": "Paul",
+        "last_name": "Wintz",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 95.2381,
+        "num_ratings": 21
+    },
+    "Katznelson,J.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTM4OTg3",
+        "first_name": "Jonathan",
+        "last_name": "Katznelson",
+        "avg_rating": 2,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 28.5714,
+        "num_ratings": 35
+    },
+    "Simons,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDc4OTg0",
+        "first_name": "Julie",
+        "last_name": "Simons",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 50,
+        "num_ratings": 52
+    },
+    "Matilsky,L.": {
+        "status": "not_found",
+        "searched_last": "Matilsky",
+        "initial": "L"
+    },
+    "Wang,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MjA5NzE=",
+        "first_name": "Hong",
+        "last_name": "Wang",
+        "avg_rating": 4.3,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 92.8571,
+        "num_ratings": 30
+    },
+    "Brummell,N.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NzAwMzA=",
+        "first_name": "Nicholas",
+        "last_name": "Brummell",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 25
+    },
+    "Gong,Q.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjU3NDQ2",
+        "first_name": "Qi",
+        "last_name": "Gong",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 58.0645,
+        "num_ratings": 42
+    },
+    "Garaud,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01MDA3Njc=",
+        "first_name": "Pascale",
+        "last_name": "Garaud",
+        "avg_rating": 3.1,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 41.6667,
+        "num_ratings": 88
+    },
+    "Ioannidis,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDY4Mzc4",
+        "first_name": "Alexander",
+        "last_name": "Alexander Ioannidis",
+        "avg_rating": 5,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Schach,E.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTUzMTk1",
+        "first_name": "Emily",
+        "last_name": "Schach",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 95.5556,
+        "num_ratings": 44
+    },
+    "Reti,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODQzOTA3",
+        "first_name": "Jay",
+        "last_name": "Reti",
+        "avg_rating": 4.6,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 100,
+        "num_ratings": 29
+    },
+    "Fehren-Schmitz,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDA1MTgy",
+        "first_name": "Lars",
+        "last_name": "Fehren-Schmitz",
+        "avg_rating": 5,
+        "avg_difficulty": 1.6,
+        "would_take_again_percent": 100,
+        "num_ratings": 10
+    },
+    "Oelze,V.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjUxMjI4",
+        "first_name": "Vicky",
+        "last_name": "Oelze",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 29
+    },
+    "Tsing,A.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNTMxMzc=",
+        "first_name": "Anna",
+        "last_name": "Tsing",
+        "avg_rating": 3.1,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 38.4615,
+        "num_ratings": 21
+    },
+    "Shange-Binion,S.T.": {
+        "status": "not_found",
+        "searched_last": "Shange-Binion",
+        "initial": "S"
+    },
+    "Moodie,M.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04MTU2NTI=",
+        "first_name": "Megan",
+        "last_name": "Moodie",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 87.5,
+        "num_ratings": 21
+    },
+    "Hauter,A.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODgwOTI3",
+        "first_name": "Ashwak ",
+        "last_name": "Hauter ",
+        "avg_rating": 1.7,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 0,
+        "num_ratings": 3
+    },
+    "Hernandez Garavito,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc0NjE4",
+        "first_name": "Carla",
+        "last_name": "Hernandez Garavito",
+        "avg_rating": 3.7,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 55.5556,
+        "num_ratings": 9
+    },
+    "Daehnke,J.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNjQ3OTE4",
+        "first_name": "John",
+        "last_name": "Daehnke",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 8
+    },
+    "Anderson,M.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNzM2NTc=",
+        "first_name": "Mark",
+        "last_name": "Anderson",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 60,
+        "num_ratings": 23
+    },
+    "Bittar Prieto,J.": {
+        "status": "not_found",
+        "searched_last": "Bittar Prieto",
+        "initial": "J"
+    },
+    "Chan,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00NTQwNTQ=",
+        "first_name": "Pak",
+        "last_name": "Chan",
+        "avg_rating": 2.4,
+        "avg_difficulty": 4.7,
+        "would_take_again_percent": -1,
+        "num_ratings": 12
+    },
+    "Donaldson,B.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODQ4OTIz",
+        "first_name": "Bryan",
+        "last_name": "Donaldson",
+        "avg_rating": 5,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 100,
+        "num_ratings": 8
+    },
+    "Whipple,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzg4MTAx",
+        "first_name": "Grant",
+        "last_name": "Whipple",
+        "avg_rating": 3,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 42.8571,
+        "num_ratings": 21
+    },
+    "Sanford,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzcyNjQ1",
+        "first_name": "Sarah",
+        "last_name": "Sanford",
+        "avg_rating": 4.8,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 4
+    },
+    "Monaghan,S.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzQyNjQ2",
+        "first_name": "Sean",
+        "last_name": "Monaghan",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Hsu,S.": {
+        "status": "not_found",
+        "searched_last": "Hsu",
+        "initial": "S"
+    },
+    "Gwyn,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNjMzNTc=",
+        "first_name": "Melissa",
+        "last_name": "Gwyn",
+        "avg_rating": 2.9,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 53.3333,
+        "num_ratings": 32
+    },
+    "Stephens,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjUyODAz",
+        "first_name": "Elizabeth",
+        "last_name": "Stephens",
+        "avg_rating": 3,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 54.5455,
+        "num_ratings": 32
+    },
+    "Santos,D.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTcwMDQ3",
+        "first_name": "Henrique",
+        "last_name": "Santos",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Altstatt,A.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTc0Mjcz",
+        "first_name": "Ann",
+        "last_name": "Altstatt",
+        "avg_rating": 2,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 0,
+        "num_ratings": 3
+    },
+    "Mascarenhas Menna Barreto,J.": {
+        "status": "not_found",
+        "searched_last": "Mascarenhas Menna Barreto",
+        "initial": "J"
+    },
+    "McEwen,T.": {
+        "status": "not_found",
+        "searched_last": "McEwen",
+        "initial": "T"
+    },
+    "Rodriguez-Montero,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc5Nzcy",
+        "first_name": "Pamela",
+        "last_name": "Rodriguez-Montero",
+        "avg_rating": 5,
+        "avg_difficulty": 1.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Jackson,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODc0NDEz",
+        "first_name": "Jelliffe",
+        "last_name": "Jackson",
+        "avg_rating": 3.5,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 70.8333,
+        "num_ratings": 24
+    },
+    "Lee,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTAzMjM3",
+        "first_name": "Jeremy",
+        "last_name": "Lee",
+        "avg_rating": 3.3,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 50.5747,
+        "num_ratings": 112
+    },
+    "Bueno,C.": {
+        "status": "not_found",
+        "searched_last": "Bueno",
+        "initial": "C"
+    },
+    "Karlic,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTc2ODYy",
+        "first_name": "Karolina",
+        "last_name": "Karlic",
+        "avg_rating": 4.7,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Hibbert-Jones,W.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02Mjk4ODE=",
+        "first_name": "Dee",
+        "last_name": "Hibbert-Jones",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 75,
+        "num_ratings": 10
+    },
+    "Gillette,K.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjg5MjY5",
+        "first_name": "Kristen",
+        "last_name": "Gillette",
+        "avg_rating": 3.5,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 67.4419,
+        "num_ratings": 43
+    },
+    "Ballard,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTUyMjQ0",
+        "first_name": "Patrick ",
+        "last_name": "Ballard",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 95.4545,
+        "num_ratings": 22
+    },
+    "Kemper,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTMxNjk0",
+        "first_name": "jonaya",
+        "last_name": "kemper",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Swensen,E.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjM5NTE3",
+        "first_name": "Elizabeth",
+        "last_name": "Swensen",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "brice,m.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTY3MjY2",
+        "first_name": "Mattie",
+        "last_name": "Brice",
+        "avg_rating": 1,
+        "avg_difficulty": 4.4,
+        "would_take_again_percent": 0,
+        "num_ratings": 11
+    },
+    "Gregor,E.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzExNDYx",
+        "first_name": "Ed",
+        "last_name": "Gregor",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "wright,d.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODU5ODc5",
+        "first_name": "Dani",
+        "last_name": "Wright",
+        "avg_rating": 2.8,
+        "avg_difficulty": 1.1,
+        "would_take_again_percent": 57.1429,
+        "num_ratings": 14
+    },
+    "Duplantis,T.M.": {
+        "status": "not_found",
+        "searched_last": "Duplantis",
+        "initial": "T"
+    },
+    "Imara,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjgwNzEw",
+        "first_name": "Nia",
+        "last_name": "Imara",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 12
+    },
+    "Movshovitz,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTg4NTQ3",
+        "first_name": "Naor",
+        "last_name": "Movshovitz",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 82.6087,
+        "num_ratings": 23
+    },
+    "Fortney,J.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzAxNzY5",
+        "first_name": "Jonathan",
+        "last_name": "Fortney",
+        "avg_rating": 3.7,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 8
+    },
+    "Bundy,K.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjE1NjQw",
+        "first_name": "Kevin",
+        "last_name": "Bundy",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 9
+    },
+    "Hervet,O.": {
+        "status": "not_found",
+        "searched_last": "Hervet",
+        "initial": "O"
+    },
+    "Murray-Clay,R.": {
+        "status": "not_found",
+        "searched_last": "Murray-Clay",
+        "initial": "R"
+    },
+    "Sengupta,A.R.": {
+        "status": "not_found",
+        "searched_last": "Sengupta",
+        "initial": "A"
+    },
+    "Skemer,A.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDk5NzMx",
+        "first_name": "Andy",
+        "last_name": "Skemer",
+        "avg_rating": 5,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Foley,R.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTc0NTI5",
+        "first_name": "Ryan",
+        "last_name": "Foley",
+        "avg_rating": 3.3,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 50,
+        "num_ratings": 14
+    },
+    "Skrajna,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTI3Mzc4",
+        "first_name": "Aleksandra",
+        "last_name": "Skrajna",
+        "avg_rating": 1.2,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 11.1111,
+        "num_ratings": 9
+    },
+    "Dunkin,R.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTAxNzQ3",
+        "first_name": "Robin",
+        "last_name": "Dunkin",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 80,
+        "num_ratings": 143
+    },
+    "Marinovic,B.B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNTk0ODU=",
+        "first_name": "Baldo",
+        "last_name": "Marinovic",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 82.6446,
+        "num_ratings": 230
+    },
+    "Borker,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTU2NjYw",
+        "first_name": "Abe",
+        "last_name": "Borker",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.3,
+        "would_take_again_percent": 93.75,
+        "num_ratings": 16
+    },
+    "Benet,D.L.": {
+        "status": "not_found",
+        "searched_last": "Benet",
+        "initial": "D"
+    },
+    "Reilly,S.B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzQ2NTky",
+        "first_name": "Sean",
+        "last_name": "Reilly",
+        "avg_rating": 5,
+        "avg_difficulty": 1.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 10
+    },
+    "Heady,K.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzM3MjE3",
+        "first_name": "Walter",
+        "last_name": "Heady",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Cornejo,O.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTk0OTY5",
+        "first_name": "Omar",
+        "last_name": "Cornejo",
+        "avg_rating": 4.8,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 4
+    },
+    "Martinez,A.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTgzNDAy",
+        "first_name": "Ari",
+        "last_name": "Martinez",
+        "avg_rating": 5,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Alonzo,S.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzA0NzU4",
+        "first_name": "Suzanne",
+        "last_name": "Alonzo",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 87.5,
+        "num_ratings": 8
+    },
+    "Bernardi,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDU2NzQ=",
+        "first_name": "Giacomo",
+        "last_name": "Bernardi",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 94.1176,
+        "num_ratings": 45
+    },
+    "Costa,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02OTEwMTU=",
+        "first_name": "Daniel",
+        "last_name": "Costa",
+        "avg_rating": 3,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 50,
+        "num_ratings": 15
+    },
+    "Pittermann,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDE5MTE0",
+        "first_name": "Jarmila",
+        "last_name": "Pittermann",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 75,
+        "num_ratings": 28
+    },
+    "Parker,I.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMjc0MjE=",
+        "first_name": "Ingrid",
+        "last_name": "Parker",
+        "avg_rating": 4,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 90,
+        "num_ratings": 48
+    },
+    "Raimondi,P.T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTA3NzY3",
+        "first_name": "Pete",
+        "last_name": "Raimondi",
+        "avg_rating": 5,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Smith,J.G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNjI5NjM=",
+        "first_name": "David",
+        "last_name": "Smith",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 75,
+        "num_ratings": 52
+    },
+    "Kelley,J.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODgzOTA2",
+        "first_name": "Joanna",
+        "last_name": "Kelley",
+        "avg_rating": 2.5,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 25,
+        "num_ratings": 12
+    },
+    "Kroeker,K.J.": {
+        "status": "not_found",
+        "searched_last": "Kroeker",
+        "initial": "K"
+    },
+    "Kilpatrick,A.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDIwNjA2",
+        "first_name": "Marm",
+        "last_name": "Kilpatrick",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 57.1429,
+        "num_ratings": 13
+    },
+    "Palkovacs,E.P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTQ5OTkw",
+        "first_name": "Eric",
+        "last_name": "Palkovacs",
+        "avg_rating": 3.5,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 42.8571,
+        "num_ratings": 6
+    },
+    "Mehta,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzAyODA0",
+        "first_name": "Rita",
+        "last_name": "Mehta",
+        "avg_rating": 3.7,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 59.0909,
+        "num_ratings": 41
+    },
+    "Croll,D.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MDA4MjM=",
+        "first_name": "Don",
+        "last_name": "Croll",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 60,
+        "num_ratings": 16
+    },
+    "Williams,T.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MzM3ODE=",
+        "first_name": "Terrie",
+        "last_name": "Williams",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 50,
+        "num_ratings": 20
+    },
+    "Beltran,R.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzUwMDg4",
+        "first_name": "Roxanne",
+        "last_name": "Beltran",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 6
+    },
+    "Rubin,S.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTIzNzA4",
+        "first_name": "Seth",
+        "last_name": "Rubin",
+        "avg_rating": 4.2,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 65.3061,
+        "num_ratings": 68
+    },
+    "Bordignon,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjc1NDk1",
+        "first_name": "Guido",
+        "last_name": "Bordignon",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 78.2609,
+        "num_ratings": 68
+    },
+    "Zuniga,M.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzIzMjY=",
+        "first_name": "Martha",
+        "last_name": "Zuniga",
+        "avg_rating": 2.9,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 33.3333,
+        "num_ratings": 23
+    },
+    "Shanks,J.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDUyMDYx",
+        "first_name": "James",
+        "last_name": "Shanks",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 43.4783,
+        "num_ratings": 92
+    },
+    "Boeger,H.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NjAwNjg=",
+        "first_name": "Hinrich",
+        "last_name": "Boeger",
+        "avg_rating": 2.8,
+        "avg_difficulty": 4.3,
+        "would_take_again_percent": 40,
+        "num_ratings": 22
+    },
+    "Hartzog,G.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00Mjg3NjU=",
+        "first_name": "Grant",
+        "last_name": "Hartzog",
+        "avg_rating": 4,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 54.5455,
+        "num_ratings": 32
+    },
+    "Doody,M.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODA2MDk5",
+        "first_name": "Michael",
+        "last_name": "Doody",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 92.8571,
+        "num_ratings": 14
+    },
+    "Sanford,J.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDU2MzIz",
+        "first_name": "Jeremy",
+        "last_name": "Sanford",
+        "avg_rating": 2.9,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 21
+    },
+    "Bhalla,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzM0NzEy",
+        "first_name": "Needhi",
+        "last_name": "Bhalla",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 64,
+        "num_ratings": 50
+    },
+    "Kamakaka,R.T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04NTkxOTU=",
+        "first_name": "Rohinton",
+        "last_name": "Kamakaka",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 77.4194,
+        "num_ratings": 66
+    },
+    "Warecki,B.B.": {
+        "status": "not_found",
+        "searched_last": "Warecki",
+        "initial": "B"
+    },
+    "Cortez,V.C.": {
+        "status": "not_found",
+        "searched_last": "Cortez",
+        "initial": "V"
+    },
+    "Morozova,O.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjA0NjQy",
+        "first_name": "Olena",
+        "last_name": "Morozova Vaske",
+        "avg_rating": 5,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Colquitt,B.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDgyNDM4",
+        "first_name": "Bradley",
+        "last_name": "Colquitt",
+        "avg_rating": 5,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Vahradian,S.K.": {
+        "status": "not_found",
+        "searched_last": "Vahradian",
+        "initial": "S"
+    },
+    "Ward,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDMxNjUx",
+        "first_name": "Jordan",
+        "last_name": "Ward",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 75,
+        "num_ratings": 24
+    },
+    "Boyd,D.F.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTE2Nzc3",
+        "first_name": "David",
+        "last_name": "Boyd",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 75,
+        "num_ratings": 4
+    },
+    "Ares,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MDcxMjE=",
+        "first_name": "Manuel",
+        "last_name": "Ares",
+        "avg_rating": 2.8,
+        "avg_difficulty": 4,
+        "would_take_again_percent": -1,
+        "num_ratings": 25
+    },
+    "Chen,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDU1MjU3",
+        "first_name": "Bin",
+        "last_name": "Chen",
+        "avg_rating": 2.3,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 16
+    },
+    "Romero,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04NTc4MQ==",
+        "first_name": "Alvaro",
+        "last_name": "Romero",
+        "avg_rating": 3.9,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": -1,
+        "num_ratings": 39
+    },
+    "Feldheim,D.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01NDE4NzA=",
+        "first_name": "David",
+        "last_name": "Feldheim",
+        "avg_rating": 3.3,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 57.1429,
+        "num_ratings": 35
+    },
+    "Jurica,M.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci03NTY0Njc=",
+        "first_name": "Melissa",
+        "last_name": "Jurica",
+        "avg_rating": 2.2,
+        "avg_difficulty": 4.3,
+        "would_take_again_percent": 22.5,
+        "num_ratings": 144
+    },
+    "Kellogg,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MDA4MjQ=",
+        "first_name": "Doug",
+        "last_name": "Kellogg",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 80,
+        "num_ratings": 28
+    },
+    "Hinck,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00ODQ2OTU=",
+        "first_name": "Lindsay",
+        "last_name": "Hinck",
+        "avg_rating": 3.9,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 62.963,
+        "num_ratings": 68
+    },
+    "Carpenter,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDQ1Nzc0",
+        "first_name": "Susan",
+        "last_name": "Carpenter",
+        "avg_rating": 5,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Arribere,J.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTcwMTMw",
+        "first_name": "Joshua",
+        "last_name": "Arribere",
+        "avg_rating": 3.1,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 51.8519,
+        "num_ratings": 27
+    },
+    "Greider,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTE1NjMw",
+        "first_name": "Carol",
+        "last_name": "Greider",
+        "avg_rating": 4.7,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 6
+    },
+    "Sikandar,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODA2NzY0",
+        "first_name": "Shaheen",
+        "last_name": "Sikandar",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Sullivan,W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00Mjg3NjY=",
+        "first_name": "Bill",
+        "last_name": "Sullivan",
+        "avg_rating": 3.7,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 29
+    },
+    "Kim,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzgzNzYz",
+        "first_name": "Euiseok",
+        "last_name": "Kim",
+        "avg_rating": 3.8,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 60,
+        "num_ratings": 5
+    },
+    "Sharma,U.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODg4MjQx",
+        "first_name": "Upasna",
+        "last_name": "Sharma",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Zuo,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDc1NjA5",
+        "first_name": "Yi",
+        "last_name": "Zuo",
+        "avg_rating": 2.7,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 12.5,
+        "num_ratings": 12
+    },
+    "Wang,Z.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTIyODM5",
+        "first_name": "Zhu",
+        "last_name": "Wang",
+        "avg_rating": 3.3,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 45.4545,
+        "num_ratings": 12
+    },
+    "Fregoso,O.I.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MDY2NDk=",
+        "first_name": "Rosa-Linda",
+        "last_name": "Fregoso",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": -1,
+        "num_ratings": 14
+    },
+    "Hendricks,D.G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTY4NTE5",
+        "first_name": "Dianne",
+        "last_name": "Hendricks",
+        "avg_rating": 5,
+        "avg_difficulty": 1.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 6
+    },
+    "Haussler,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MTQ1NDI=",
+        "first_name": "David",
+        "last_name": "Haussler",
+        "avg_rating": 4.2,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 80,
+        "num_ratings": 12
+    },
+    "Pourmand,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTkwNjg2",
+        "first_name": "Nader",
+        "last_name": "Pourmand",
+        "avg_rating": 2.1,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 20,
+        "num_ratings": 7
+    },
+    "Vollmers,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTMwMTEx",
+        "first_name": "Christopher",
+        "last_name": "Vollmers",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 85.7143,
+        "num_ratings": 14
+    },
+    "Lowe,T.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04NDI5MTI=",
+        "first_name": "Todd",
+        "last_name": "Lowe",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 8
+    },
+    "Bernick,D.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODI1NjI1",
+        "first_name": "David",
+        "last_name": "Bernick",
+        "avg_rating": 4.5,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 29
+    },
+    "Dubois,R.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTkyMDcy",
+        "first_name": "Rebecca",
+        "last_name": "DuBois",
+        "avg_rating": 1,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 0,
+        "num_ratings": 2
+    },
+    "Green,R.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTcwMDc3",
+        "first_name": "Richard Ed",
+        "last_name": "Green",
+        "avg_rating": 3.3,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 4
+    },
+    "Russell,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTgxODY=",
+        "first_name": "Russell",
+        "last_name": "Flegal",
+        "avg_rating": 3.7,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": -1,
+        "num_ratings": 24
+    },
+    "Ioannidis,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDY4Mzc4",
+        "first_name": "Alexander",
+        "last_name": "Alexander Ioannidis",
+        "avg_rating": 5,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Kim,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDAyMjE=",
+        "first_name": "L.S.",
+        "last_name": "Kim",
+        "avg_rating": 3,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 85.7143,
+        "num_ratings": 59
+    },
+    "Stuart,J.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci03MDM2OTA=",
+        "first_name": "Josh",
+        "last_name": "Stuart",
+        "avg_rating": 3.5,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": -1,
+        "num_ratings": 3
+    },
+    "Forsberg,C.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODg2ODM0",
+        "first_name": "Camilla",
+        "last_name": "Forsberg",
+        "avg_rating": 4.8,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 0,
+        "num_ratings": 5
+    },
+    "Shariati,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc2ODUz",
+        "first_name": "Ali",
+        "last_name": "Shariati",
+        "avg_rating": 5,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Paten,B.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTQ0NTcx",
+        "first_name": "Benedict",
+        "last_name": "Paten",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 72.2222,
+        "num_ratings": 54
+    },
+    "Miga,K.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDIwNzMz",
+        "first_name": "Karen",
+        "last_name": "Miga",
+        "avg_rating": 5,
+        "avg_difficulty": 1,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Brooks,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjQwNDk3",
+        "first_name": "Angela",
+        "last_name": "Brooks",
+        "avg_rating": 2.6,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 33.3333,
+        "num_ratings": 5
+    },
+    "Sharf,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDc2ODgy",
+        "first_name": "Tal",
+        "last_name": "Sharf",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 57.1429,
+        "num_ratings": 7
+    },
+    "Yeh,H.": {
+        "status": "not_found",
+        "searched_last": "Yeh",
+        "initial": "H"
+    },
+    "Corbett-Detig,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzMyMTEy",
+        "first_name": "Russell",
+        "last_name": "Corbett-Detig",
+        "avg_rating": 5,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 12
+    },
+    "Johnston,A.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTQ4ODY3",
+        "first_name": "Anna",
+        "last_name": "Johnston",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 100,
+        "num_ratings": 14
+    },
+    "Weiss,P.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNTc5NDI1",
+        "first_name": "Peter",
+        "last_name": "Weiss",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 89.2473,
+        "num_ratings": 118
+    },
+    "Brison,C.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjUyOTU1",
+        "first_name": "Caileen",
+        "last_name": "Brison",
+        "avg_rating": 4.2,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 42
+    },
+    "Eroy-Reveles,A.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDM4ODg1",
+        "first_name": "Alegra",
+        "last_name": "Eroy-Reveles",
+        "avg_rating": 4,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 81.7204,
+        "num_ratings": 186
+    },
+    "Sizemore,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTg5NTQ4",
+        "first_name": "Anne",
+        "last_name": "Sizemore",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 52
+    },
+    "Binder,C.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTc4Nzgx",
+        "first_name": "Caitlin ",
+        "last_name": "Binder",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 92.8571,
+        "num_ratings": 76
+    },
+    "Sanchez,L.M.": {
+        "status": "not_found",
+        "searched_last": "Sanchez",
+        "initial": "L"
+    },
+    "Lokey,R.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTc2NjE4",
+        "first_name": "Robert",
+        "last_name": "Lokey",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 71.4286,
+        "num_ratings": 7
+    },
+    "Stone,M.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzQzNjIz",
+        "first_name": "Michael",
+        "last_name": "Stone",
+        "avg_rating": 4.5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 20
+    },
+    "Ayzner,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDM5MTU1",
+        "first_name": "Alex",
+        "last_name": "Ayzner",
+        "avg_rating": 3.5,
+        "avg_difficulty": 4.4,
+        "would_take_again_percent": 60,
+        "num_ratings": 10
+    },
+    "Mercer,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTIxOTk0",
+        "first_name": "Jaron",
+        "last_name": "Mercer",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Braslau,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNjM5MDY=",
+        "first_name": "Rebecca",
+        "last_name": "Braslau",
+        "avg_rating": 3.4,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 50,
+        "num_ratings": 104
+    },
+    "Calegari Andrade,M.": {
+        "status": "not_found",
+        "searched_last": "Calegari Andrade",
+        "initial": "M"
+    },
+    "Zhang,J.Z.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NTU1MA==",
+        "first_name": "Jin",
+        "last_name": "Zhang",
+        "avg_rating": 2.6,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 30.9524,
+        "num_ratings": 74
+    },
+    "Tu,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODg2NDAz",
+        "first_name": "Elu",
+        "last_name": "Tu",
+        "avg_rating": 5,
+        "avg_difficulty": 1.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Wu,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05MjEzMjc=",
+        "first_name": "Thomas",
+        "last_name": "Wu",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": -1,
+        "num_ratings": 26
+    },
+    "Alkon,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDIwMjcy",
+        "first_name": "Allison",
+        "last_name": "Alkon",
+        "avg_rating": 5,
+        "avg_difficulty": 1.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 4
+    },
+    "Favaloro,T.": {
+        "status": "not_found",
+        "searched_last": "Favaloro",
+        "initial": "T"
+    },
+    "Altice,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTMxMzYw",
+        "first_name": "Nathan",
+        "last_name": "Altice",
+        "avg_rating": 3.6,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 62.5,
+        "num_ratings": 24
+    },
+    "Devine,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDM0ODc5",
+        "first_name": "Graeme",
+        "last_name": "Devine",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Ringland,K.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTgxODE0",
+        "first_name": "Kathryn",
+        "last_name": "Ringland",
+        "avg_rating": 1.8,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 10.7143,
+        "num_ratings": 28
+    },
+    "Eshraghian,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODg0NjA3",
+        "first_name": "Jason",
+        "last_name": "Eshraghian",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 6
+    },
+    "Whitehead,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTE1OTA=",
+        "first_name": "Jim",
+        "last_name": "Whitehead",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 21
+    },
+    "Gilpin,L.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODAzMDA2",
+        "first_name": "Leilani",
+        "last_name": "Gilpin",
+        "avg_rating": 4.2,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 80,
+        "num_ratings": 10
+    },
+    "Sundara Raman,R.": {
+        "status": "not_found",
+        "searched_last": "Sundara Raman",
+        "initial": "R"
+    },
+    "Eger,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDM0ODc3",
+        "first_name": "Markus",
+        "last_name": "Eger",
+        "avg_rating": 5,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 4
+    },
+    "Gonzalez-Rocha,J.": {
+        "status": "not_found",
+        "searched_last": "Gonzalez-Rocha",
+        "initial": "J"
+    },
+    "Davis,J.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MjUxMzg=",
+        "first_name": "James",
+        "last_name": "Davis",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 90.4762,
+        "num_ratings": 30
+    },
+    "Souza,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDgwODA5",
+        "first_name": "Abel",
+        "last_name": "Souza",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Cardenas,A.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjc5MzU2",
+        "first_name": "Alvaro",
+        "last_name": "Cardenas",
+        "avg_rating": 3.3,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 56.25,
+        "num_ratings": 16
+    },
+    "Arden,O.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDczNDk2",
+        "first_name": "Owen",
+        "last_name": "Arden",
+        "avg_rating": 4,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 36
+    },
+    "Alfaro Cordoba,M.": {
+        "status": "not_found",
+        "searched_last": "Alfaro Cordoba",
+        "initial": "M"
+    },
+    "Smith,A.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDI0NTI1",
+        "first_name": "Adam",
+        "last_name": "Smith",
+        "avg_rating": 3,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 46.1538,
+        "num_ratings": 13
+    },
+    "Sporka,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTgyMDUw",
+        "first_name": "Adam",
+        "last_name": "Sporka",
+        "avg_rating": 5,
+        "avg_difficulty": 1.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Gorman,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDI1NDMz",
+        "first_name": "Samantha",
+        "last_name": "Gorman",
+        "avg_rating": 3,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 0,
+        "num_ratings": 1
+    },
+    "Isbister,K.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDExNTcy",
+        "first_name": "Katherine",
+        "last_name": "Isbister",
+        "avg_rating": 4.5,
+        "avg_difficulty": 1.5,
+        "would_take_again_percent": 90,
+        "num_ratings": 10
+    },
+    "Kurniawan,S.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNTA5OTE0",
+        "first_name": "Sri",
+        "last_name": "Kurniawan",
+        "avg_rating": 3.1,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 80,
+        "num_ratings": 10
+    },
+    "Seif El-Nasr,M.": {
+        "status": "not_found",
+        "searched_last": "Seif El-Nasr",
+        "initial": "M"
+    },
+    "Wardrip-Fruin,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjU0Nzk3",
+        "first_name": "Noah",
+        "last_name": "Wardrip-Fruin",
+        "avg_rating": 2.5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 37.8378,
+        "num_ratings": 49
+    },
+    "Khalid,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTU2NDEx",
+        "first_name": "Ayesha",
+        "last_name": "Khalid",
+        "avg_rating": 1.3,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 0,
+        "num_ratings": 3
+    },
+    "Thorpe,T.N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTg2ODkx",
+        "first_name": "Todd",
+        "last_name": "Thorpe",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 82.1429,
+        "num_ratings": 30
+    },
+    "Somekh,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjcwNjM0",
+        "first_name": "Addi",
+        "last_name": "Somekh",
+        "avg_rating": 5,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 34
+    },
+    "Kelly,P.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjA3OTYw",
+        "first_name": "Patricia",
+        "last_name": "Kelly",
+        "avg_rating": 4.9,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 16
+    },
+    "Stinneford,C.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjcyNzA2",
+        "first_name": "Caitlin",
+        "last_name": "Stinneford",
+        "avg_rating": 3.1,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 63.3333,
+        "num_ratings": 31
+    },
+    "LeBron,M.": {
+        "status": "not_found",
+        "searched_last": "LeBron",
+        "initial": "M"
+    },
+    "Ife,F.": {
+        "status": "not_found",
+        "searched_last": "Ife",
+        "initial": "F"
+    },
+    "Diaz,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNjc1OTA=",
+        "first_name": "Maria Elena",
+        "last_name": "Diaz",
+        "avg_rating": 2.5,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 25,
+        "num_ratings": 39
+    },
+    "Gallagher-Geurtsen,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODkwNzQw",
+        "first_name": "Tricia",
+        "last_name": "Gallagher-Geurtsen",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Casumbal-Salazar,I.": {
+        "status": "not_found",
+        "searched_last": "Casumbal-Salazar",
+        "initial": "I"
+    },
+    "Hong,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDAxMDQ5",
+        "first_name": "Christine",
+        "last_name": "Hong",
+        "avg_rating": 3.3,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 84.6154,
+        "num_ratings": 35
+    },
+    "Sharma,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTc2MzMx",
+        "first_name": "Kriti",
+        "last_name": "Sharma",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Cummings,S.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODQ5MzA4",
+        "first_name": "Shannon",
+        "last_name": "Cummings",
+        "avg_rating": 4.7,
+        "avg_difficulty": 1.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 6
+    },
+    "Calsoyas,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMzM5ODk=",
+        "first_name": "Candace",
+        "last_name": "Calsoyas",
+        "avg_rating": 3.5,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 37.5,
+        "num_ratings": 38
+    },
+    "Schaefer,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MjE1OTc=",
+        "first_name": "Neil",
+        "last_name": "Schaefer",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 77.7778,
+        "num_ratings": 39
+    },
+    "Schmeder,M.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTU5NjQz",
+        "first_name": "Maximillian Myers",
+        "last_name": "Schmeder",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 75,
+        "num_ratings": 8
+    },
+    "Ross,K.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDA0MjEw",
+        "first_name": "Katherine",
+        "last_name": "Ross",
+        "avg_rating": 3.5,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 15
+    },
+    "Klusmeier,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDU0NjIy",
+        "first_name": "Cathryn",
+        "last_name": "Klusmeier",
+        "avg_rating": 5,
+        "avg_difficulty": 1.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 9
+    },
+    "Hazlewood,J.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTgxMjEw",
+        "first_name": "Juli",
+        "last_name": "Hazlewood",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 75,
+        "num_ratings": 16
+    },
+    "Weygandt,C.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjk1MDUw",
+        "first_name": "Clara",
+        "last_name": "Weygandt",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 18
+    },
+    "Monsen,K.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDY4Mjgy",
+        "first_name": "Katie",
+        "last_name": "Monsen",
+        "avg_rating": 3.7,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 57.6923,
+        "num_ratings": 40
+    },
+    "Rettenwender,T.": {
+        "status": "not_found",
+        "searched_last": "Rettenwender",
+        "initial": "T"
+    },
+    "Ball,T.B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDQ2OTYx",
+        "first_name": "Tamara",
+        "last_name": "Ball",
+        "avg_rating": 1.2,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 0,
+        "num_ratings": 5
+    },
+    "Moulds,G.B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNTU5OTk=",
+        "first_name": "Gerald",
+        "last_name": "Moulds",
+        "avg_rating": 4.6,
+        "avg_difficulty": 1.5,
+        "would_take_again_percent": 96.3636,
+        "num_ratings": 133
+    },
+    "Litz,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzM0NTk3",
+        "first_name": "Heiner",
+        "last_name": "Litz",
+        "avg_rating": 3.8,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 74.1379,
+        "num_ratings": 58
+    },
+    "Siero,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODgzNTAx",
+        "first_name": "Marcelo",
+        "last_name": "Siero",
+        "avg_rating": 3,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 54.0541,
+        "num_ratings": 74
+    },
+    "Veenstra,K.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODgzNjM0",
+        "first_name": "Kerry",
+        "last_name": "Veenstra",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 84.7222,
+        "num_ratings": 77
+    },
+    "Rudnick,A.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzYyMzIz",
+        "first_name": "Alexander",
+        "last_name": "Rudnick",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 77.551,
+        "num_ratings": 49
+    },
+    "Bhargava,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDg0MzQ4",
+        "first_name": "Kriti",
+        "last_name": "Bhargava",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 50,
+        "num_ratings": 40
+    },
+    "Miller,K.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTkyMjc1",
+        "first_name": "Kyle",
+        "last_name": "Miller",
+        "avg_rating": 3.1,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 43.1818,
+        "num_ratings": 44
+    },
+    "Westphal,C.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTAzMTI2",
+        "first_name": "Cedric",
+        "last_name": "Westphal",
+        "avg_rating": 2.1,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 17.8571,
+        "num_ratings": 28
+    },
+    "Yue,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDQ3Njg3",
+        "first_name": "Hao",
+        "last_name": "Yue",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 39
+    },
+    "Munishkina,L.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTg2OTkw",
+        "first_name": "Larissa",
+        "last_name": "Munishkina",
+        "avg_rating": 2.6,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 40.3974,
+        "num_ratings": 151
+    },
+    "Paranjape,I.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODkyMzE5",
+        "first_name": "Ishaan",
+        "last_name": "Paranjape",
+        "avg_rating": 3,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 45.8333,
+        "num_ratings": 23
+    },
+    "Marinescu,R.V.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODgyNDgx",
+        "first_name": "Razvan",
+        "last_name": "Marinescu",
+        "avg_rating": 2.3,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 33.3333,
+        "num_ratings": 3
+    },
+    "Graziani,R.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDcyMjI4",
+        "first_name": "Rick",
+        "last_name": "Graziani",
+        "avg_rating": 5,
+        "avg_difficulty": 1.6,
+        "would_take_again_percent": 100,
+        "num_ratings": 59
+    },
+    "Ahmad,I.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDgwOTI1",
+        "first_name": "Ishtiyaque ",
+        "last_name": "Ahmad",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 53.8462,
+        "num_ratings": 13
+    },
+    "Im,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDgyNjY5",
+        "first_name": "Sungjin",
+        "last_name": " Im",
+        "avg_rating": 4,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 71.4286,
+        "num_ratings": 7
+    },
+    "Montazeri,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDA0NTE2",
+        "first_name": "Niloofar",
+        "last_name": "Montazeri",
+        "avg_rating": 2.7,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 43.3962,
+        "num_ratings": 53
+    },
+    "Bailey,D.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MDQzNzc=",
+        "first_name": "Delbert",
+        "last_name": "Bailey",
+        "avg_rating": 2.4,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 32.6923,
+        "num_ratings": 84
+    },
+    "Demertzis,I.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODQ2NzM0",
+        "first_name": "Ioannis",
+        "last_name": "Demertzis",
+        "avg_rating": 4,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 73.6842,
+        "num_ratings": 19
+    },
+    "Lesani,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDE0MTgw",
+        "first_name": "Mohsen ",
+        "last_name": "Lesani",
+        "avg_rating": 4.4,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Flanagan,C.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00NTQwODk=",
+        "first_name": "Cormac",
+        "last_name": "Flanagan",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 69
+    },
+    "Jullig,R.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDU2Mjk0",
+        "first_name": "Richard",
+        "last_name": "Jullig",
+        "avg_rating": 2.4,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 48.7805,
+        "num_ratings": 53
+    },
+    "Harrison,D.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzI4MjY0",
+        "first_name": "David",
+        "last_name": "Harrison",
+        "avg_rating": 3.8,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 66.25,
+        "num_ratings": 79
+    },
+    "Xu,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTg5MTIx",
+        "first_name": "Yuanchao",
+        "last_name": "Xu",
+        "avg_rating": 3.5,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 70,
+        "num_ratings": 10
+    },
+    "Richmond,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODg0NjEw",
+        "first_name": "Dustin",
+        "last_name": "Richmond",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 90,
+        "num_ratings": 10
+    },
+    "Wang,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDMxMDA1",
+        "first_name": "Yunan",
+        "last_name": "Wang",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 73.0769,
+        "num_ratings": 51
+    },
+    "Zhou,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzk2MjUw",
+        "first_name": "Yuyin",
+        "last_name": "Zhou",
+        "avg_rating": 3,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 50,
+        "num_ratings": 6
+    },
+    "Parsa,C.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzUxNjQw",
+        "first_name": "Christina",
+        "last_name": "Parsa",
+        "avg_rating": 2.2,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 27.381,
+        "num_ratings": 84
+    },
+    "Parsa,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzcwMTc2",
+        "first_name": "Mike",
+        "last_name": "Parsa",
+        "avg_rating": 1.1,
+        "avg_difficulty": 5,
+        "would_take_again_percent": 0,
+        "num_ratings": 9
+    },
+    "Tziavelis,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDg2MDI1",
+        "first_name": "Nikos",
+        "last_name": "Tziavelis",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 17
+    },
+    "Comandur,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDU5NDQ3",
+        "first_name": "Seshadhri",
+        "last_name": "Comandur",
+        "avg_rating": 4.6,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 85.4545,
+        "num_ratings": 59
+    },
+    "Musacchio,J.T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MzAzNDU=",
+        "first_name": "John",
+        "last_name": "Musacchio",
+        "avg_rating": 2.2,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 16.9492,
+        "num_ratings": 74
+    },
+    "Sadjadpour,H.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjQ1NTg1",
+        "first_name": "Hamid",
+        "last_name": "Sadjadpour",
+        "avg_rating": 2.7,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 13.3333,
+        "num_ratings": 21
+    },
+    "Kuper,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDkzMjU3",
+        "first_name": "Lindsey",
+        "last_name": "Kuper",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 95.2381,
+        "num_ratings": 21
+    },
+    "Fremont,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTU2MzUx",
+        "first_name": "Daniel",
+        "last_name": "Fremont",
+        "avg_rating": 4.2,
+        "avg_difficulty": 4.3,
+        "would_take_again_percent": 74.1935,
+        "num_ratings": 31
+    },
+    "Xie,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjkxOTM2",
+        "first_name": "CiHang",
+        "last_name": "Xie",
+        "avg_rating": 2.8,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 45.4545,
+        "num_ratings": 11
+    },
+    "West,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjY3MTY3",
+        "first_name": "Jeremy",
+        "last_name": "West",
+        "avg_rating": 3.4,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 60,
+        "num_ratings": 5
+    },
+    "Kapuscinski,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzI2OTU3",
+        "first_name": "Anne",
+        "last_name": "Kapuscinski",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Darke,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDYzMzc1",
+        "first_name": "A.M.",
+        "last_name": "Darke",
+        "avg_rating": 1.9,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 20.5882,
+        "num_ratings": 34
+    },
+    "Khan,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjEwNTM3",
+        "first_name": "Aliyah",
+        "last_name": "Khan",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Weems,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzQ5NDM3",
+        "first_name": "Marianne",
+        "last_name": "Weems",
+        "avg_rating": 2.8,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 45.4545,
+        "num_ratings": 11
+    },
+    "Ginther,A.T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDY0Njk3",
+        "first_name": "Amy",
+        "last_name": "Ginther",
+        "avg_rating": 3.7,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 3
+    },
+    "Gonzalez Reguero,B.": {
+        "status": "not_found",
+        "searched_last": "Gonzalez Reguero",
+        "initial": "B"
+    },
+    "Clapham,M.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTM5MDA2",
+        "first_name": "Matthew",
+        "last_name": "Clapham",
+        "avg_rating": 3.5,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 75,
+        "num_ratings": 34
+    },
+    "Zhang,X.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzM2Njg2",
+        "first_name": "Xi",
+        "last_name": "Zhang",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 91.6667,
+        "num_ratings": 12
+    },
+    "Griggs,G.B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODM0NzA=",
+        "first_name": "Gary",
+        "last_name": "Griggs",
+        "avg_rating": 4,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 60.9756,
+        "num_ratings": 87
+    },
+    "Savage,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTc0Mjk4",
+        "first_name": "Heather",
+        "last_name": "Savage",
+        "avg_rating": 2.3,
+        "avg_difficulty": 4.6,
+        "would_take_again_percent": 28.5714,
+        "num_ratings": 7
+    },
+    "Blackburn,T.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTIxMjg5",
+        "first_name": "Terry",
+        "last_name": "Blackburn",
+        "avg_rating": 4.7,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 19
+    },
+    "Williams,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MzM3ODE=",
+        "first_name": "Terrie",
+        "last_name": "Williams",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 50,
+        "num_ratings": 20
+    },
+    "Wolf,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTkyOTI3",
+        "first_name": "Edwin",
+        "last_name": "Wolf",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Hain,M.P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTc5MjA2",
+        "first_name": "Mathis",
+        "last_name": "Hain",
+        "avg_rating": 3,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 50,
+        "num_ratings": 2
+    },
+    "Hourigan,J.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NjYxMTY=",
+        "first_name": "Jeremy",
+        "last_name": "Hourigan",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 80,
+        "num_ratings": 10
+    },
+    "Garrick-Bethell,I.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTg2NzAw",
+        "first_name": "Ian",
+        "last_name": "Garrick-Bethell",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 78.5714,
+        "num_ratings": 15
+    },
+    "Paytan,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTIzNDM0",
+        "first_name": "Adina",
+        "last_name": "Paytan",
+        "avg_rating": 1.9,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 14.2857,
+        "num_ratings": 24
+    },
+    "Finnegan,N.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDE2MDA3",
+        "first_name": "Noah ",
+        "last_name": "Finnegan",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 4
+    },
+    "Zhang,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzcxMjk1",
+        "first_name": "YI",
+        "last_name": "Zhang",
+        "avg_rating": 2,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 14.2857,
+        "num_ratings": 19
+    },
+    "Huh,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTgzOTE2",
+        "first_name": "Tae",
+        "last_name": "Huh",
+        "avg_rating": 1.2,
+        "avg_difficulty": 4.9,
+        "would_take_again_percent": 10,
+        "num_ratings": 20
+    },
+    "Chen,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDYwMDEx",
+        "first_name": "Yu",
+        "last_name": "Chen",
+        "avg_rating": 1.5,
+        "avg_difficulty": 4.3,
+        "would_take_again_percent": 13.6364,
+        "num_ratings": 22
+    },
+    "Ellis,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDUzOTcz",
+        "first_name": "Nathan",
+        "last_name": "Ellis",
+        "avg_rating": 5,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 11
+    },
+    "Schmidt,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MDA1MzQ=",
+        "first_name": "Holger",
+        "last_name": "Schmidt",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 15
+    },
+    "Ye,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDA2NDc3",
+        "first_name": "Hao",
+        "last_name": "Ye",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Elkaim,G.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNjcyOTU=",
+        "first_name": "Gabriel",
+        "last_name": "Elkaim",
+        "avg_rating": 4.1,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 75,
+        "num_ratings": 38
+    },
+    "Petersen,S.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODMzNzQ=",
+        "first_name": "Steve",
+        "last_name": "Petersen",
+        "avg_rating": 3.2,
+        "avg_difficulty": 4.6,
+        "would_take_again_percent": 46.1538,
+        "num_ratings": 36
+    },
+    "Yanik,A.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODcxOTM4",
+        "first_name": "Ali",
+        "last_name": "Yanik",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Corzine,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDE1NTc4",
+        "first_name": "Keith",
+        "last_name": "Corzine",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Bose,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTA4MTA1",
+        "first_name": "Soumya",
+        "last_name": "Bose",
+        "avg_rating": 2.4,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 60,
+        "num_ratings": 5
+    },
+    "Pedrotti,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01Mjk3NDQ=",
+        "first_name": "Ken",
+        "last_name": "Pedrotti",
+        "avg_rating": 2.4,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 25,
+        "num_ratings": 40
+    },
+    "Parsa,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjYyNDUz",
+        "first_name": "Leila",
+        "last_name": "Parsa",
+        "avg_rating": 2,
+        "avg_difficulty": 5,
+        "would_take_again_percent": 0,
+        "num_ratings": 1
+    },
+    "Yu,Z.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDQ3Njg3",
+        "first_name": "Hao",
+        "last_name": "Yue",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 39
+    },
+    "McGuire,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODU4MzEw",
+        "first_name": "Steve",
+        "last_name": "Mcguire",
+        "avg_rating": 4,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 80,
+        "num_ratings": 20
+    },
+    "Rolandi,M.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjc4NDgx",
+        "first_name": "Marco",
+        "last_name": "Rolandi",
+        "avg_rating": 4.7,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 9
+    },
+    "Milutinovic,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDQ5NjI1",
+        "first_name": "Dejan",
+        "last_name": "Milutinovic",
+        "avg_rating": 2.6,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 55.5556,
+        "num_ratings": 23
+    },
+    "Teodorescu,M.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDIwMDIz",
+        "first_name": "Mircea",
+        "last_name": "Teodorescu",
+        "avg_rating": 2.4,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 45.4545,
+        "num_ratings": 18
+    },
+    "Oye,M.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTExNjY3",
+        "first_name": "Michael",
+        "last_name": "Oye",
+        "avg_rating": 2.5,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 29.4118,
+        "num_ratings": 17
+    },
+    "Fung,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01NjcyNjc=",
+        "first_name": "K.C",
+        "last_name": "Fung",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 81.25,
+        "num_ratings": 175
+    },
+    "Gonzalez,J.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00OTI0OTg=",
+        "first_name": "Julie",
+        "last_name": "Gonzalez",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 58.6538,
+        "num_ratings": 177
+    },
+    "Bullen,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjA0OTAw",
+        "first_name": "Maria",
+        "last_name": "Bullen",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.6,
+        "would_take_again_percent": 93.9394,
+        "num_ratings": 33
+    },
+    "Jones,K.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjM2NDI5",
+        "first_name": "Kevin",
+        "last_name": "Jones",
+        "avg_rating": 2.7,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 46.0674,
+        "num_ratings": 88
+    },
+    "Kim,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDAyMjE=",
+        "first_name": "L.S.",
+        "last_name": "Kim",
+        "avg_rating": 3,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 85.7143,
+        "num_ratings": 59
+    },
+    "Lazzati,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDMwNDgy",
+        "first_name": "Natalia",
+        "last_name": "Lazzati",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "GU,W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODY1NDE4",
+        "first_name": "Grace",
+        "last_name": "Gu",
+        "avg_rating": 2.9,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 53.8462,
+        "num_ratings": 21
+    },
+    "Marion,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci03NjAyMTY=",
+        "first_name": "Justin",
+        "last_name": "Marion",
+        "avg_rating": 2.3,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 37.5,
+        "num_ratings": 51
+    },
+    "Bulman,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODY1NDE0",
+        "first_name": "George",
+        "last_name": "Bulman",
+        "avg_rating": 4.4,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 80,
+        "num_ratings": 35
+    },
+    "Dobkin,C.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNzY3NDY=",
+        "first_name": "Carlos",
+        "last_name": "Dobkin",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 58.8235,
+        "num_ratings": 53
+    },
+    "Anderson,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzE5NDYy",
+        "first_name": "Scott",
+        "last_name": "Anderson",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 90,
+        "num_ratings": 9
+    },
+    "Zucker,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc3MDY3",
+        "first_name": "Ariel",
+        "last_name": "Zucker",
+        "avg_rating": 3.3,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 60.8696,
+        "num_ratings": 23
+    },
+    "Hardie,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTA4NzM5",
+        "first_name": "Ruth",
+        "last_name": "Hardie",
+        "avg_rating": 4,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 75,
+        "num_ratings": 4
+    },
+    "Meininger,A.G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTk4MTUy",
+        "first_name": "Aaron",
+        "last_name": "Meininger",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 48.2353,
+        "num_ratings": 99
+    },
+    "Hu,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjM5MTg2",
+        "first_name": "Chenyue",
+        "last_name": "Hu",
+        "avg_rating": 3.8,
+        "avg_difficulty": 4.3,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 6
+    },
+    "Pommerenke,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MDE2NzQ=",
+        "first_name": "Kai",
+        "last_name": "Pommerenke",
+        "avg_rating": 2.7,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 36.3636,
+        "num_ratings": 56
+    },
+    "Singh,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzE2NjU=",
+        "first_name": "Nirvikar",
+        "last_name": "Singh",
+        "avg_rating": 4.2,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 93.3333,
+        "num_ratings": 26
+    },
+    "Kletzer,K.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00Mjk2NDk=",
+        "first_name": "Ken",
+        "last_name": "Kletzer",
+        "avg_rating": 3.4,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 25,
+        "num_ratings": 29
+    },
+    "Owen,S.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzQ2MTAw",
+        "first_name": "Steven",
+        "last_name": "Owen",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 32
+    },
+    "Christensen,P.": {
+        "status": "not_found",
+        "searched_last": "Christensen",
+        "initial": "P"
+    },
+    "Leung,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzY3NzUz",
+        "first_name": "Michael",
+        "last_name": "Leung",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Martinez-Iriarte,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTQwNzY5",
+        "first_name": "julian",
+        "last_name": "Martinez-Iriarte",
+        "avg_rating": 3.7,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 3
+    },
+    "Saijo,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODgyMTAy",
+        "first_name": "Hikaru",
+        "last_name": "Saijo",
+        "avg_rating": 2.9,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 52.9412,
+        "num_ratings": 22
+    },
+    "Tserenjigmid,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTEwODky",
+        "first_name": "Gerelt",
+        "last_name": "Tserenjigmid",
+        "avg_rating": 2,
+        "avg_difficulty": 2.1,
+        "would_take_again_percent": 14.2857,
+        "num_ratings": 7
+    },
+    "Saha,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTU1MTI2",
+        "first_name": "Subhra",
+        "last_name": "Saha",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 78.6517,
+        "num_ratings": 88
+    },
+    "Vandercook,H.": {
+        "status": "not_found",
+        "searched_last": "Vandercook",
+        "initial": "H"
+    },
+    "Maddox,E.": {
+        "status": "not_found",
+        "searched_last": "Maddox",
+        "initial": "E"
+    },
+    "Kenner,K.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzU0OTU0",
+        "first_name": "Kylie",
+        "last_name": "Kenner",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 84.6154,
+        "num_ratings": 26
+    },
+    "Kissell,R.": {
+        "status": "not_found",
+        "searched_last": "Kissell",
+        "initial": "R"
+    },
+    "de Roock,R.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDI5ODgw",
+        "first_name": "Roberto ",
+        "last_name": "de Roock",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 60,
+        "num_ratings": 5
+    },
+    "Lashaw,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzQ0MjQ2",
+        "first_name": "Amanda",
+        "last_name": "Lashaw",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 52.9412,
+        "num_ratings": 17
+    },
+    "Reigh,E.": {
+        "status": "not_found",
+        "searched_last": "Reigh",
+        "initial": "E"
+    },
+    "Dewitt,J.": {
+        "status": "not_found",
+        "searched_last": "Dewitt",
+        "initial": "J"
+    },
+    "Lang,N.W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDk0MTQ3",
+        "first_name": "Nora",
+        "last_name": "Lang",
+        "avg_rating": 4.5,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 85.7143,
+        "num_ratings": 8
+    },
+    "Johns,J.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04Nzg0Njk=",
+        "first_name": "Robert Preston",
+        "last_name": "Johnson",
+        "avg_rating": 2.9,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 40,
+        "num_ratings": 27
+    },
+    "Jones Hinz,J.": {
+        "status": "not_found",
+        "searched_last": "Jones Hinz",
+        "initial": "J"
+    },
+    "Jaggar,S.R.": {
+        "status": "not_found",
+        "searched_last": "Jaggar",
+        "initial": "S"
+    },
+    "Bernasconi,N.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTY1NDM=",
+        "first_name": "Claude",
+        "last_name": "Bernasconi",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": -1,
+        "num_ratings": 57
+    },
+    "Tan,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDY3MjQw",
+        "first_name": "Paulo",
+        "last_name": "Tan",
+        "avg_rating": 4.9,
+        "avg_difficulty": 1.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Martin,D.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTQ1Mzc4",
+        "first_name": "Dee",
+        "last_name": "Martin",
+        "avg_rating": 3.5,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 64.2857,
+        "num_ratings": 42
+    },
+    "Ali,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNzkxNzc=",
+        "first_name": "Alice",
+        "last_name": "Yang-Murray",
+        "avg_rating": 4.7,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 46
+    },
+    "Jibrin,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc1NzU4",
+        "first_name": "Rekia",
+        "last_name": "Jibrin",
+        "avg_rating": 1.3,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 0,
+        "num_ratings": 3
+    },
+    "Kulikowski II,A.J.": {
+        "status": "not_found",
+        "searched_last": "Kulikowski II",
+        "initial": "A"
+    },
+    "Lu,F.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzU1MDA0",
+        "first_name": "Flora",
+        "last_name": "LU",
+        "avg_rating": 4.6,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 81.8182,
+        "num_ratings": 18
+    },
+    "Yang,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTIyMzc5",
+        "first_name": "christina",
+        "last_name": "yang",
+        "avg_rating": 1,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 0,
+        "num_ratings": 1
+    },
+    "Evans,B.E.": {
+        "status": "not_found",
+        "searched_last": "Evans",
+        "initial": "B"
+    },
+    "Sarker,P.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzQyNjAz",
+        "first_name": "Pallab",
+        "last_name": "Sarker",
+        "avg_rating": 5,
+        "avg_difficulty": 1.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Cha,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODQ0NDMw",
+        "first_name": "Vaggos",
+        "last_name": "Chatziafratis",
+        "avg_rating": 2.9,
+        "avg_difficulty": 4.3,
+        "would_take_again_percent": 41.1765,
+        "num_ratings": 34
+    },
+    "Rivasplata,C.": {
+        "status": "not_found",
+        "searched_last": "Rivasplata",
+        "initial": "C"
+    },
+    "Worthington,B.": {
+        "status": "not_found",
+        "searched_last": "Worthington",
+        "initial": "B"
+    },
+    "Winton,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDE5MDgz",
+        "first_name": "Scott",
+        "last_name": "Winton",
+        "avg_rating": 4.4,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Cheng,W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTk4NzQ=",
+        "first_name": "Weixin",
+        "last_name": "Cheng",
+        "avg_rating": 3.3,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 62.5,
+        "num_ratings": 32
+    },
+    "Holl,K.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05MDMyMjg=",
+        "first_name": "Karen",
+        "last_name": "Holl",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 18
+    },
+    "Chuang,P.Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MjE0Mzg=",
+        "first_name": "Patrick",
+        "last_name": "Chuang",
+        "avg_rating": 2.5,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 19.3548,
+        "num_ratings": 56
+    },
+    "Lamborg,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjQ0MzIz",
+        "first_name": "Carl",
+        "last_name": "Lamborg",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 90,
+        "num_ratings": 20
+    },
+    "Turk-Kubo,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDE2MTY1",
+        "first_name": "Kendra",
+        "last_name": "Turk-Kubo",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 80,
+        "num_ratings": 5
+    },
+    "Beaulieu,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc0NDE1",
+        "first_name": "Claudie",
+        "last_name": "Beaulieu",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 4
+    },
+    "Smith,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNjI5NjM=",
+        "first_name": "David",
+        "last_name": "Smith",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 75,
+        "num_ratings": 52
+    },
+    "Kara,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDgwNjMz",
+        "first_name": "Selmin",
+        "last_name": "Kara",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Lusztig,I.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjA1NDcx",
+        "first_name": "Irene",
+        "last_name": "Lusztig",
+        "avg_rating": 3.4,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 12
+    },
+    "Limbrick,P.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDcyODY=",
+        "first_name": "Peter",
+        "last_name": "Limbrick",
+        "avg_rating": 3.7,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 71.4286,
+        "num_ratings": 70
+    },
+    "Friz,A.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTAyMDUz",
+        "first_name": "Anna",
+        "last_name": "Friz",
+        "avg_rating": 3.4,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 5
+    },
+    "Shanken,E.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDIwMzI0",
+        "first_name": "Edward",
+        "last_name": "Shanken",
+        "avg_rating": 2.3,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 33.3333,
+        "num_ratings": 15
+    },
+    "Rizzo-Martinez,M.": {
+        "status": "not_found",
+        "searched_last": "Rizzo-Martinez",
+        "initial": "M"
+    },
+    "Gustafson,I.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTQ4MTE=",
+        "first_name": "Irene",
+        "last_name": "Gustafson",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 43
+    },
+    "Sack,W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00NzEyOTI=",
+        "first_name": "Warren",
+        "last_name": "Sack",
+        "avg_rating": 2.9,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 52.9412,
+        "num_ratings": 31
+    },
+    "Arondekar,A.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNjY5MDA=",
+        "first_name": "Anjali",
+        "last_name": "Arondekar",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 75,
+        "num_ratings": 84
+    },
+    "Groom,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTE5NjY2",
+        "first_name": "Amelia",
+        "last_name": "Groom",
+        "avg_rating": 5,
+        "avg_difficulty": 1,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Nelson,R.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjY1NzU5",
+        "first_name": "Rachel",
+        "last_name": "Nelson",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 6
+    },
+    "Ulysse,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzAyOTI0",
+        "first_name": "Gina",
+        "last_name": "Ulysse",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 92.3077,
+        "num_ratings": 13
+    },
+    "Marcelino,T.": {
+        "status": "not_found",
+        "searched_last": "Marcelino",
+        "initial": "T"
+    },
+    "Cailloux,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNjk2OTY5",
+        "first_name": "Renee",
+        "last_name": "Cailloux",
+        "avg_rating": 4.5,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 22
+    },
+    "Rohmer,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjMyODMw",
+        "first_name": "Carine",
+        "last_name": "Rohmer",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 18
+    },
+    "Chamorro-Garcia,R.": {
+        "status": "not_found",
+        "searched_last": "Chamorro-Garcia",
+        "initial": "R"
+    },
+    "Bugg,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTk0NjIy",
+        "first_name": "Laura",
+        "last_name": "Bugg",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Carson,B.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04Mjc0MjI=",
+        "first_name": "Ben",
+        "last_name": "Carson",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 54.5455,
+        "num_ratings": 48
+    },
+    "Maples,A.M.": {
+        "status": "not_found",
+        "searched_last": "Maples",
+        "initial": "A"
+    },
+    "Ly,B.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzI0OTkz",
+        "first_name": "Boreth",
+        "last_name": "LY",
+        "avg_rating": 4,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 81.25,
+        "num_ratings": 28
+    },
+    "Karl,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTQ3MzEw",
+        "first_name": "Brian",
+        "last_name": "Karl",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 4
+    },
+    "Evangelatou,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTExMjM1",
+        "first_name": "Maria",
+        "last_name": "Evangelatou",
+        "avg_rating": 3.1,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 29.6296,
+        "num_ratings": 75
+    },
+    "Furtado,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTA4NjIy",
+        "first_name": "Nicole",
+        "last_name": "Furtado",
+        "avg_rating": 4,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 71.4286,
+        "num_ratings": 7
+    },
+    "Kyo,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDU2NDk0",
+        "first_name": "Yi yi mon (rosaline)",
+        "last_name": "kyo",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Gonzalez,J.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00OTI0OTg=",
+        "first_name": "Julie",
+        "last_name": "Gonzalez",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 58.6538,
+        "num_ratings": 177
+    },
+    "Murray,D.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDU0NzYx",
+        "first_name": "Derrick",
+        "last_name": "Murray",
+        "avg_rating": 2.6,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 40,
+        "num_ratings": 43
+    },
+    "Bordeaux,C.": {
+        "status": "not_found",
+        "searched_last": "Bordeaux",
+        "initial": "C"
+    },
+    "Polzak,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjc2NDQ0",
+        "first_name": "Kailani",
+        "last_name": "Polzak",
+        "avg_rating": 5,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Kamehiro,S.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMzk0NTg=",
+        "first_name": "Stacy",
+        "last_name": "Kamehiro",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 85.7143,
+        "num_ratings": 52
+    },
+    "Su,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTExMjEw",
+        "first_name": "Junecue",
+        "last_name": "Suh",
+        "avg_rating": 3.4,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 60,
+        "num_ratings": 66
+    },
+    "Chung,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01NzUyMjE=",
+        "first_name": "Sandy",
+        "last_name": "Chung",
+        "avg_rating": 3.5,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": -1,
+        "num_ratings": 29
+    },
+    "Moghaddam,Y.": {
+        "status": "not_found",
+        "searched_last": "Moghaddam",
+        "initial": "Y"
+    },
+    "Stein-Rosen,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDAzNTQ4",
+        "first_name": "Galia",
+        "last_name": "Stein-Rosen",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 19
+    },
+    "Breen,B.P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzIzMTY1",
+        "first_name": "Benjamin",
+        "last_name": "Breen",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 80.7692,
+        "num_ratings": 25
+    },
+    "Lonetree,A.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTk1MjQ4",
+        "first_name": "Amy",
+        "last_name": "Lonetree",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 85.7143,
+        "num_ratings": 14
+    },
+    "Jones,C.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjY1OTAw",
+        "first_name": "Catherine",
+        "last_name": "Jones",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 68.75,
+        "num_ratings": 27
+    },
+    "Porter,E.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNTQ4MDE4",
+        "first_name": "Eric",
+        "last_name": "Porter",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Mota,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDUwNjcy",
+        "first_name": "Thiago",
+        "last_name": "Mota",
+        "avg_rating": 5,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 6
+    },
+    "Hu,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04NTM3MzQ=",
+        "first_name": "Minghui",
+        "last_name": "Hu",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 34.6154,
+        "num_ratings": 51
+    },
+    "Chan,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjQzMzIx",
+        "first_name": "Shelly",
+        "last_name": "Chan",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 80,
+        "num_ratings": 5
+    },
+    "Gutierrez,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjczNTA5",
+        "first_name": "Kathleen",
+        "last_name": "Gutierrez",
+        "avg_rating": 4.6,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 90.9091,
+        "num_ratings": 11
+    },
+    "Kreps,A.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTMzNjc5",
+        "first_name": "Anne",
+        "last_name": "Kreps",
+        "avg_rating": 5,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Kehler,E.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjExMTcy",
+        "first_name": "Edward",
+        "last_name": "Kehler",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 75.6757,
+        "num_ratings": 51
+    },
+    "Cobbins-Modica,Q.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDczOTYx",
+        "first_name": "Quin'Nita ",
+        "last_name": "Cobbins-Modica ",
+        "avg_rating": 1,
+        "avg_difficulty": 5,
+        "would_take_again_percent": 50,
+        "num_ratings": 1
+    },
+    "Aso,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzYzNzg=",
+        "first_name": "Noriko",
+        "last_name": "Aso",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 84.6154,
+        "num_ratings": 37
+    },
+    "Christy,A.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNjI4OTY=",
+        "first_name": "Alan",
+        "last_name": "Christy",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 76.4706,
+        "num_ratings": 89
+    },
+    "Derr,J.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzk4NDY1",
+        "first_name": "Jennifer",
+        "last_name": "Derr",
+        "avg_rating": 3.3,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 35.2941,
+        "num_ratings": 25
+    },
+    "Sullivan,E.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODgxNDI4",
+        "first_name": "Elaine",
+        "last_name": "Sullivan",
+        "avg_rating": 3.7,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 81.25,
+        "num_ratings": 21
+    },
+    "Matera,M.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTAyNDgw",
+        "first_name": "Marc",
+        "last_name": "Matera",
+        "avg_rating": 4.4,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 7
+    },
+    "Bargu,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjA0Mzg1",
+        "first_name": "Banu",
+        "last_name": "Bargu",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 63.6364,
+        "num_ratings": 11
+    },
+    "Law,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjA0MTUw",
+        "first_name": "Jess",
+        "last_name": "Law",
+        "avg_rating": 3.1,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 57.1429,
+        "num_ratings": 7
+    },
+    "Prencipe,M.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01NzQxMjc=",
+        "first_name": "Tonia",
+        "last_name": "Prencipe",
+        "avg_rating": 4.4,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 27
+    },
+    "Yamamoto,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci03OTM3ODM=",
+        "first_name": "Naoko",
+        "last_name": "Yamamoto",
+        "avg_rating": 4.6,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 90.9091,
+        "num_ratings": 24
+    },
+    "Yukawa,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDEzOTI4",
+        "first_name": "Keiko",
+        "last_name": "Yukawa",
+        "avg_rating": 4.9,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Hoshi,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTg2NjM2",
+        "first_name": "Saori",
+        "last_name": "Hoshi",
+        "avg_rating": 5,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Birts,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODMxMzU2",
+        "first_name": "Angela",
+        "last_name": "Birts",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 81.8182,
+        "num_ratings": 22
+    },
+    "Majzler,R.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjM1ODA2",
+        "first_name": "Bob",
+        "last_name": "Majzler",
+        "avg_rating": 4.7,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 94.8718,
+        "num_ratings": 39
+    },
+    "Maret,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTI3MzAw",
+        "first_name": "Susan",
+        "last_name": "Maret",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Camblin,C.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05MjEzNTk=",
+        "first_name": "Caren",
+        "last_name": "Camblin",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 48
+    },
+    "Balloffet,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjExODUx",
+        "first_name": "Lily",
+        "last_name": "Balloffet",
+        "avg_rating": 2.5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 25,
+        "num_ratings": 12
+    },
+    "Martinez,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODg5Njk0",
+        "first_name": "Carlos",
+        "last_name": "Martinez",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 88.8889,
+        "num_ratings": 9
+    },
+    "Taft,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDY3OTQ5",
+        "first_name": "Jessica",
+        "last_name": "Taft",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Patel,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDQ1MzA0",
+        "first_name": "Shankari",
+        "last_name": "Patel",
+        "avg_rating": 4.5,
+        "avg_difficulty": 1.3,
+        "would_take_again_percent": 96.0784,
+        "num_ratings": 51
+    },
+    "Rivas,C.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTExNDk1",
+        "first_name": "Cecilia",
+        "last_name": "Rivas",
+        "avg_rating": 2.7,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 60,
+        "num_ratings": 26
+    },
+    "Perez,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjU3NDU2",
+        "first_name": "Justin",
+        "last_name": "Perez",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 88.8889,
+        "num_ratings": 18
+    },
+    "Falcon,S.M.": {
+        "status": "not_found",
+        "searched_last": "Falcon",
+        "initial": "S"
+    },
+    "Arredondo,G.F.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDUwNjI3",
+        "first_name": "Gabriela",
+        "last_name": "Arredondo",
+        "avg_rating": 4,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 11
+    },
+    "Daifallah,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTAwNDE1",
+        "first_name": "Yasmeen",
+        "last_name": "Daifallah",
+        "avg_rating": 3.7,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 64.7059,
+        "num_ratings": 17
+    },
+    "Farquhar,D.N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTEwMDc=",
+        "first_name": "Dion",
+        "last_name": "Farquhar",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 74.1935,
+        "num_ratings": 46
+    },
+    "Coonerty,R.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00Mzk0Mjc=",
+        "first_name": "Ryan",
+        "last_name": "Coonerty",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 70
+    },
+    "Springer,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTAzMjYw",
+        "first_name": "Melanie",
+        "last_name": "Springer",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 76.9231,
+        "num_ratings": 20
+    },
+    "Dinishak,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNjI1MzEx",
+        "first_name": "Janette",
+        "last_name": "Dinishak",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 92.3077,
+        "num_ratings": 43
+    },
+    "Nichols,S.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTUwMDUw",
+        "first_name": "Shawn",
+        "last_name": "Nichols",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 73.8462,
+        "num_ratings": 65
+    },
+    "Toosarvandani,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTAyNzkz",
+        "first_name": "Maziar",
+        "last_name": "Toosarvandani",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 92.8571,
+        "num_ratings": 18
+    },
+    "Chacón,D.": {
+        "status": "not_found",
+        "searched_last": "Chacón",
+        "initial": "D"
+    },
+    "McGuire,G.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDI1MjM2",
+        "first_name": "Grant",
+        "last_name": "McGuire",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 92.3077,
+        "num_ratings": 22
+    },
+    "Bennett,R.T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzU1NzQx",
+        "first_name": "Ryan",
+        "last_name": "Bennett",
+        "avg_rating": 4.8,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 91.6667,
+        "num_ratings": 12
+    },
+    "Gong,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTIzODky",
+        "first_name": "Mia",
+        "last_name": "Gong",
+        "avg_rating": 5,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Hankamer,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMjc3ODM=",
+        "first_name": "Jorge",
+        "last_name": "Hankamer",
+        "avg_rating": 3.6,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 40,
+        "num_ratings": 54
+    },
+    "Anand,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDY1NzQx",
+        "first_name": "Pranav",
+        "last_name": "Anand",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 65,
+        "num_ratings": 51
+    },
+    "Brasoveanu,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NTYyMDY=",
+        "first_name": "Adrian",
+        "last_name": "Brasoveanu",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 80,
+        "num_ratings": 21
+    },
+    "Rysling,A.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDg0NDYz",
+        "first_name": "Amanda",
+        "last_name": "Rysling",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 80,
+        "num_ratings": 10
+    },
+    "Cooppan,V.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01OTQzMzY=",
+        "first_name": "Vilashini",
+        "last_name": "Cooppan",
+        "avg_rating": 3.7,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 57.8947,
+        "num_ratings": 46
+    },
+    "Wilson,R.V.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTEyMzg=",
+        "first_name": "Robert",
+        "last_name": "Wilson",
+        "avg_rating": 2.5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 28.5714,
+        "num_ratings": 33
+    },
+    "Gomez-Rivas,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTQ4Mjc4",
+        "first_name": "Camilo",
+        "last_name": "Gomez-Rivas",
+        "avg_rating": 3.1,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 20,
+        "num_ratings": 6
+    },
+    "Keilen,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzgxMDM3",
+        "first_name": "Sean",
+        "last_name": "Keilen",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 28
+    },
+    "Kleinberg Biehl,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc5ODc4",
+        "first_name": "Jody",
+        "last_name": "Kleinberg Biehl",
+        "avg_rating": 5,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Fox,R.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjM2NjM1",
+        "first_name": "Renee",
+        "last_name": "Fox",
+        "avg_rating": 3.1,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 45.4545,
+        "num_ratings": 33
+    },
+    "Devecka,M.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTA2MzQ5",
+        "first_name": "Martin",
+        "last_name": "Devecka",
+        "avg_rating": 3.8,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 61.2903,
+        "num_ratings": 31
+    },
+    "Ruvalcaba,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTEzMDcz",
+        "first_name": "Christian",
+        "last_name": "Ruvalcaba",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Poblete,J.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00Mzg0NQ==",
+        "first_name": "Juan",
+        "last_name": "Poblete",
+        "avg_rating": 2.4,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 28.5714,
+        "num_ratings": 59
+    },
+    "Bivens,A.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTQ5NzA3",
+        "first_name": "A.H",
+        "last_name": "Bivens",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Tseng,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzU2NTA1",
+        "first_name": "Jennifer",
+        "last_name": "Tseng",
+        "avg_rating": 3.1,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 42.8571,
+        "num_ratings": 7
+    },
+    "Bhattacharya,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDQ3ODM4",
+        "first_name": "Nandini",
+        "last_name": "Bhattacharya",
+        "avg_rating": 3.5,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 45.6311,
+        "num_ratings": 246
+    },
+    "Tamanoi,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01MDE3NTQ=",
+        "first_name": "Hirotaka",
+        "last_name": "Tamanoi",
+        "avg_rating": 2.4,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 27.1429,
+        "num_ratings": 107
+    },
+    "Weissman,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDM1Mzc2",
+        "first_name": "Martin",
+        "last_name": "Weissman",
+        "avg_rating": 4,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 73.5294,
+        "num_ratings": 77
+    },
+    "Chattopadhyay,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDMyNDk1",
+        "first_name": "Ashesh",
+        "last_name": "Chattopadhyay",
+        "avg_rating": 3.3,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 69.697,
+        "num_ratings": 33
+    },
+    "Pan,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDc4Njg2",
+        "first_name": "Jiayin",
+        "last_name": "Pan",
+        "avg_rating": 1.8,
+        "avg_difficulty": 4.3,
+        "would_take_again_percent": 22.5,
+        "num_ratings": 39
+    },
+    "Serboi,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTI3MTYw",
+        "first_name": "Suzana",
+        "last_name": "Serboi",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 80.4878,
+        "num_ratings": 42
+    },
+    "Barron,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTg2NzQ5",
+        "first_name": "Manuel",
+        "last_name": "Barron",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Lin,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDc2NzMy",
+        "first_name": "Longzhi",
+        "last_name": "Lin",
+        "avg_rating": 1.5,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 7.6923,
+        "num_ratings": 26
+    },
+    "Suh,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTExMjEw",
+        "first_name": "Junecue",
+        "last_name": "Suh",
+        "avg_rating": 3.4,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 60,
+        "num_ratings": 66
+    },
+    "Sanders,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDM4NTc1",
+        "first_name": "Beren",
+        "last_name": "Sanders",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 78.2051,
+        "num_ratings": 78
+    },
+    "Escobar Vega,L.": {
+        "status": "not_found",
+        "searched_last": "Escobar Vega",
+        "initial": "L"
+    },
+    "Ehrhardt,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci03MjQ5OTA=",
+        "first_name": "Torsten",
+        "last_name": "Ehrhardt",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 81.8182,
+        "num_ratings": 40
+    },
+    "Ginzburg,V.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MjAzNzk=",
+        "first_name": "Viktor",
+        "last_name": "Ginzburg",
+        "avg_rating": 3.5,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 50,
+        "num_ratings": 33
+    },
+    "Kass,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODk1Nzg0",
+        "first_name": "Jesse",
+        "last_name": "Kass",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 41.0256,
+        "num_ratings": 38
+    },
+    "Lewis,D.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTIxMzQ=",
+        "first_name": "Debra",
+        "last_name": "Lewis",
+        "avg_rating": 1.8,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 8.6957,
+        "num_ratings": 38
+    },
+    "Kimmey,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTc0ODA1",
+        "first_name": "Jacqueline",
+        "last_name": "Kimmey",
+        "avg_rating": 4.5,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 87.5,
+        "num_ratings": 8
+    },
+    "Artun,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODg2MjIx",
+        "first_name": "Burcak ",
+        "last_name": "Artun",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 37.5,
+        "num_ratings": 8
+    },
+    "Lin,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDc2NzMy",
+        "first_name": "Longzhi",
+        "last_name": "Lin",
+        "avg_rating": 1.5,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 7.6923,
+        "num_ratings": 26
+    },
+    "Saltikov,C.W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04MjE1ODg=",
+        "first_name": "Chad",
+        "last_name": "Saltikov",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 13
+    },
+    "Ottemann,K.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzIzMjI=",
+        "first_name": "Karen",
+        "last_name": "Ottemann",
+        "avg_rating": 3.8,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 53.8462,
+        "num_ratings": 26
+    },
+    "Lederman,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjA1Nzg2",
+        "first_name": "David",
+        "last_name": "Lederman",
+        "avg_rating": 2.3,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 34.375,
+        "num_ratings": 32
+    },
+    "Berman,N.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjE0OTM0",
+        "first_name": "Nathaniel",
+        "last_name": "Berman",
+        "avg_rating": 4.9,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 12
+    },
+    "Kiesling,B.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzE2ODAz",
+        "first_name": "Bruce",
+        "last_name": "Kiesling",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 6
+    },
+    "Hamilton,C.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTY0MzQw",
+        "first_name": "Charles",
+        "last_name": "Hamilton",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Garcia,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTcxOTA3",
+        "first_name": "Martin",
+        "last_name": "Garcia",
+        "avg_rating": 3.2,
+        "avg_difficulty": 2,
+        "would_take_again_percent": -1,
+        "num_ratings": 3
+    },
+    "Baumbusch,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTEzODM1",
+        "first_name": "Brian",
+        "last_name": "Baumbusch",
+        "avg_rating": 5,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Nunes,A.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDYzOTc0",
+        "first_name": "Alexander",
+        "last_name": "Nunes",
+        "avg_rating": 3,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 0,
+        "num_ratings": 1
+    },
+    "Vega,M.S.": {
+        "status": "not_found",
+        "searched_last": "Vega",
+        "initial": "M"
+    },
+    "Lanam,F.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjU2MTM1",
+        "first_name": "Faith",
+        "last_name": "Lanam",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 12
+    },
+    "Hammond,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzgzOTA3",
+        "first_name": "Nicol",
+        "last_name": "Hammond",
+        "avg_rating": 4,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 60,
+        "num_ratings": 5
+    },
+    "Ezerova,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NTk4NDI=",
+        "first_name": "Maria",
+        "last_name": "Ezerova",
+        "avg_rating": 4.2,
+        "avg_difficulty": 4.8,
+        "would_take_again_percent": -1,
+        "num_ratings": 5
+    },
+    "Willey,S.K.": {
+        "status": "not_found",
+        "searched_last": "Willey",
+        "initial": "S"
+    },
+    "Sinclair,E.V.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzQxMzQz",
+        "first_name": "Emily",
+        "last_name": "Sinclair",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Akotuah,F.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzc2NjY5",
+        "first_name": "Francis",
+        "last_name": "Akotuah",
+        "avg_rating": 5,
+        "avg_difficulty": 1.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 6
+    },
+    "Batish,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzUzNzcy",
+        "first_name": "Ashwin",
+        "last_name": "Batish",
+        "avg_rating": 5,
+        "avg_difficulty": 1.4,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Heying,M.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTg2MDk4",
+        "first_name": "Madison",
+        "last_name": "Heying",
+        "avg_rating": 4,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 78.2609,
+        "num_ratings": 23
+    },
+    "Hester,K.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjg5OTU=",
+        "first_name": "Karlton",
+        "last_name": "Hester",
+        "avg_rating": 1.7,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 0,
+        "num_ratings": 37
+    },
+    "Afrisando,J.": {
+        "status": "not_found",
+        "searched_last": "Afrisando",
+        "initial": "J"
+    },
+    "Pratorius,C.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNDc3OTQ=",
+        "first_name": "Chris",
+        "last_name": "Pratorius",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 9
+    },
+    "Fiore,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODI0NzM5",
+        "first_name": "Giacomo",
+        "last_name": "Fiore",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 80.8511,
+        "num_ratings": 58
+    },
+    "Naru,A.": {
+        "status": "not_found",
+        "searched_last": "Naru",
+        "initial": "A"
+    },
+    "Puig de la Bellacasa,M.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDU2MzQx",
+        "first_name": "Maria",
+        "last_name": "Puig de la Bellacasa",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Flanigan,J.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTc4ODA1",
+        "first_name": "Jeffrey",
+        "last_name": "Flanigan",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 75,
+        "num_ratings": 8
+    },
+    "De Alfaro,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MTQ0NTI=",
+        "first_name": "Luca",
+        "last_name": "De Alfaro",
+        "avg_rating": 3.3,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 58.9286,
+        "num_ratings": 71
+    },
+    "Lane,I.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjE4OTE2",
+        "first_name": "Madeline",
+        "last_name": "Lane-McKinley",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 83.871,
+        "num_ratings": 31
+    },
+    "Seeger,A.Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODQwNzI4",
+        "first_name": "Andrea",
+        "last_name": "Seeger",
+        "avg_rating": 4.9,
+        "avg_difficulty": 1.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 15
+    },
+    "Jones,D.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTcxNzEz",
+        "first_name": "Daryl",
+        "last_name": "Jones",
+        "avg_rating": 2.7,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 37.5,
+        "num_ratings": 24
+    },
+    "Knisely,L.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01Njk5MzY=",
+        "first_name": "Lindsay",
+        "last_name": "Knisely",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 63
+    },
+    "Thomas,T.N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjcyNzYx",
+        "first_name": "Tara",
+        "last_name": "Thomas",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 82.3529,
+        "num_ratings": 17
+    },
+    "O'Connell,E.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTM3NDEy",
+        "first_name": "Erin",
+        "last_name": "O'Connell",
+        "avg_rating": 2.5,
+        "avg_difficulty": 1.3,
+        "would_take_again_percent": 50,
+        "num_ratings": 4
+    },
+    "Polito,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDQwMTQ3",
+        "first_name": "Michael",
+        "last_name": "Polito",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 40.9091,
+        "num_ratings": 22
+    },
+    "Friedlaender,A.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTQwOTQ4",
+        "first_name": "Ari",
+        "last_name": "Friedlaender",
+        "avg_rating": 4.9,
+        "avg_difficulty": 1.6,
+        "would_take_again_percent": 92.8571,
+        "num_ratings": 14
+    },
+    "Lam,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjIxMTcz",
+        "first_name": "Phoebe",
+        "last_name": "Lam",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 92.8571,
+        "num_ratings": 14
+    },
+    "Moore,A.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NjIwNjc=",
+        "first_name": "Andy",
+        "last_name": "Moore",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 77.7778,
+        "num_ratings": 22
+    },
+    "Fiechter,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzMwNzA5",
+        "first_name": "Jerome",
+        "last_name": "Fiechter",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 5
+    },
+    "Edwards,C.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjU4Nzg3",
+        "first_name": "Christopher",
+        "last_name": "Edwards",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 96.2963,
+        "num_ratings": 36
+    },
+    "Polissar,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTgwNjE5",
+        "first_name": "Pratigya",
+        "last_name": "Polissar",
+        "avg_rating": 5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 7
+    },
+    "Orlandi,N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTYzNDc0",
+        "first_name": "Nico",
+        "last_name": "Orlandi",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 85.7143,
+        "num_ratings": 39
+    },
+    "Stone,A.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MjMxOTM=",
+        "first_name": "Abraham",
+        "last_name": "Stone",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 45.4545,
+        "num_ratings": 24
+    },
+    "Robertson,K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjMwOTYz",
+        "first_name": "Kyle",
+        "last_name": "Robertson",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 65.2174,
+        "num_ratings": 45
+    },
+    "Bowin,J.F.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci02MjMxOTE=",
+        "first_name": "John",
+        "last_name": "Bowin",
+        "avg_rating": 2.5,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 36.3636,
+        "num_ratings": 45
+    },
+    "Ellis,J.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzkxOTM=",
+        "first_name": "Jon",
+        "last_name": "Ellis",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 75,
+        "num_ratings": 52
+    },
+    "Smith,D.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNjI5NjM=",
+        "first_name": "David",
+        "last_name": "Smith",
+        "avg_rating": 3.8,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 75,
+        "num_ratings": 52
+    },
+    "Shaghoulian,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTA0OTg1",
+        "first_name": "Edgar",
+        "last_name": "Shaghoulian",
+        "avg_rating": 4,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Dhar,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTM1NDky",
+        "first_name": "Barun",
+        "last_name": "Dhar",
+        "avg_rating": 3.2,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 58.8972,
+        "num_ratings": 399
+    },
+    "Alexandradinata,A.": {
+        "status": "not_found",
+        "searched_last": "Alexandradinata",
+        "initial": "A"
+    },
+    "Brown,G.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODc4MTQ=",
+        "first_name": "George",
+        "last_name": "Brown",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 8
+    },
+    "Karyndinha,E.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTE2OTA5",
+        "first_name": "Eliina",
+        "last_name": "Karyndinha",
+        "avg_rating": 2.7,
+        "avg_difficulty": 2.1,
+        "would_take_again_percent": 47.5,
+        "num_ratings": 39
+    },
+    "Ritz,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzgyMjE0",
+        "first_name": "Steve",
+        "last_name": "Ritz",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 43
+    },
+    "Velasco Jr.,J.": {
+        "status": "not_found",
+        "searched_last": "Velasco Jr.",
+        "initial": "J"
+    },
+    "Schumm,B.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci03NTY0NzA=",
+        "first_name": "Bruce",
+        "last_name": "Schumm",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 50,
+        "num_ratings": 11
+    },
+    "Furniss,A.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODk1OTMx",
+        "first_name": "Amy",
+        "last_name": "Furniss",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 94.1176,
+        "num_ratings": 39
+    },
+    "Roberts,G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjMwOTYz",
+        "first_name": "Kyle",
+        "last_name": "Robertson",
+        "avg_rating": 3.9,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 65.2174,
+        "num_ratings": 45
+    },
+    "Yan,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjcxMDYz",
+        "first_name": "Aiming",
+        "last_name": "Yan",
+        "avg_rating": 4.7,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 88.8889,
+        "num_ratings": 9
+    },
+    "Sher,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNDMxOTE3",
+        "first_name": "Alexander",
+        "last_name": "Sher",
+        "avg_rating": 2.8,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 62.5,
+        "num_ratings": 19
+    },
+    "Baumbach,R.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDY4NTIy",
+        "first_name": "Ryan",
+        "last_name": "Baumbach",
+        "avg_rating": 2.6,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 60,
+        "num_ratings": 5
+    },
+    "Syzranov,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yODc0Mzk4",
+        "first_name": "Sergey",
+        "last_name": "Syzranov",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 84.6154,
+        "num_ratings": 13
+    },
+    "Altmannshofer,W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDMyNjM0",
+        "first_name": "Wolfgang",
+        "last_name": "Altmannshofer",
+        "avg_rating": 5,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Hance,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzQ3MDM5",
+        "first_name": "Michael",
+        "last_name": "Hance",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 6
+    },
+    "Ramirez,A.P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjU1OTM5",
+        "first_name": "Art",
+        "last_name": "Ramirez",
+        "avg_rating": 1.5,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 6.6667,
+        "num_ratings": 15
+    },
+    "Read,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzA5Mjk1",
+        "first_name": "Benjamin",
+        "last_name": "Read",
+        "avg_rating": 3.1,
+        "avg_difficulty": 4.4,
+        "would_take_again_percent": 29.4118,
+        "num_ratings": 43
+    },
+    "Mathiowetz,D.P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMjA4OTA=",
+        "first_name": "Dean",
+        "last_name": "Mathiowetz",
+        "avg_rating": 4.2,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 76.6667,
+        "num_ratings": 131
+    },
+    "Seth,V.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzE2ODQ=",
+        "first_name": "Vanita",
+        "last_name": "Seth",
+        "avg_rating": 4,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 84.6154,
+        "num_ratings": 64
+    },
+    "Serres,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjAyNDY3",
+        "first_name": "Thomas",
+        "last_name": "Serres",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 90,
+        "num_ratings": 39
+    },
+    "Eaton,K.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDU3NDUx",
+        "first_name": "Kent",
+        "last_name": "Eaton",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 88.8889,
+        "num_ratings": 39
+    },
+    "Schoenman,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMjA4ODg=",
+        "first_name": "Roger",
+        "last_name": "Schoenman",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 70.8333,
+        "num_ratings": 53
+    },
+    "Pasotti,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNzc1ODI=",
+        "first_name": "Eleonora",
+        "last_name": "Pasotti",
+        "avg_rating": 3,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 40,
+        "num_ratings": 50
+    },
+    "Bertram,E.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zOTc2ODM=",
+        "first_name": "Eva",
+        "last_name": "Bertram",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 43
+    },
+    "Raila,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjcxMDc3",
+        "first_name": "Hannah",
+        "last_name": "Raila",
+        "avg_rating": 2.9,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 44.6809,
+        "num_ratings": 94
+    },
+    "Menendez,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDIyNTk4",
+        "first_name": "David",
+        "last_name": "Menendez",
+        "avg_rating": 5,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 12
+    },
+    "Silva,K.G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDcwNDE5",
+        "first_name": "Denise",
+        "last_name": "Silva",
+        "avg_rating": 3.4,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 46.4286,
+        "num_ratings": 43
+    },
+    "Seymour,T.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNDg4MTY=",
+        "first_name": "Travis",
+        "last_name": "Seymour",
+        "avg_rating": 3,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 29.2308,
+        "num_ratings": 102
+    },
+    "Storm,B.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzg3NDYx",
+        "first_name": "Benjamin",
+        "last_name": "Storm",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 90.4762,
+        "num_ratings": 61
+    },
+    "Leaper,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zNTI2MTA=",
+        "first_name": "Campbell",
+        "last_name": "Leaper",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 47.5,
+        "num_ratings": 87
+    },
+    "Hwang,H.G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTE5NjU2",
+        "first_name": "Hyesung",
+        "last_name": "Hwang",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 4
+    },
+    "Akhtar,N.N.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjAwODQ=",
+        "first_name": "Nameera",
+        "last_name": "Akhtar",
+        "avg_rating": 4.6,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 80,
+        "num_ratings": 79
+    },
+    "Cardilla,K.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04ODc4NjE=",
+        "first_name": "Kim",
+        "last_name": "Cardilla",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.1,
+        "would_take_again_percent": 98.7013,
+        "num_ratings": 165
+    },
+    "Holbrook,B.B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjQxOTM1",
+        "first_name": "Bryan",
+        "last_name": "Holbrook",
+        "avg_rating": 4.5,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 90.2439,
+        "num_ratings": 82
+    },
+    "Hoversten,L.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjcyNjE0",
+        "first_name": "Liv",
+        "last_name": "Hoversten",
+        "avg_rating": 3.3,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 62.5,
+        "num_ratings": 8
+    },
+    "Fox Tree,J.E.": {
+        "status": "not_found",
+        "searched_last": "Fox Tree",
+        "initial": "J"
+    },
+    "Hausman,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjM4OTcz",
+        "first_name": "Hannah",
+        "last_name": "Hausman",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 68.75,
+        "num_ratings": 32
+    },
+    "Yamashiro,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjc0MzQ4",
+        "first_name": "Jeremy",
+        "last_name": "Yamashiro",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.1,
+        "would_take_again_percent": 93.1034,
+        "num_ratings": 29
+    },
+    "Williams,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTUwNTY1",
+        "first_name": "Jamal",
+        "last_name": "Williams",
+        "avg_rating": 5,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 75,
+        "num_ratings": 4
+    },
+    "Covarrubias,R.G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDk2ODU4",
+        "first_name": "Rebecca",
+        "last_name": "Covarrubias",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 75,
+        "num_ratings": 29
+    },
+    "Grabe,S.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjY3ODI2",
+        "first_name": "Shelly",
+        "last_name": "Grabe",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.9,
+        "would_take_again_percent": 50,
+        "num_ratings": 20
+    },
+    "Zurbriggen,E.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODc2MzY=",
+        "first_name": "Eileen",
+        "last_name": "Zurbriggen",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 91.6667,
+        "num_ratings": 26
+    },
+    "Bullock,H.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MTM3MTc=",
+        "first_name": "Heather",
+        "last_name": "Bullock",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 75,
+        "num_ratings": 22
+    },
+    "Bonam,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDY2MDYx",
+        "first_name": "Courtney",
+        "last_name": "Bonam",
+        "avg_rating": 2.3,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 40.7407,
+        "num_ratings": 27
+    },
+    "Cook,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzIxOTg2",
+        "first_name": "Andrea",
+        "last_name": "Cook",
+        "avg_rating": 4.6,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 93.5484,
+        "num_ratings": 32
+    },
+    "Kim,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NDk5OTM=",
+        "first_name": "Hi Kyung",
+        "last_name": "Kim",
+        "avg_rating": 2.7,
+        "avg_difficulty": 3.6,
+        "would_take_again_percent": 50,
+        "num_ratings": 5
+    },
+    "Manago,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzUzNjg1",
+        "first_name": "Adriana",
+        "last_name": "Manago",
+        "avg_rating": 2.7,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 32.3529,
+        "num_ratings": 34
+    },
+    "Hasan-Aslih,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDcxNDUz",
+        "first_name": "Siwar",
+        "last_name": "Hasan-Aslih",
+        "avg_rating": 1,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 0,
+        "num_ratings": 1
+    },
+    "Rahal,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTY0MDU0",
+        "first_name": "Danny",
+        "last_name": "Rahal",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 80,
+        "num_ratings": 30
+    },
+    "Rogoff,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzk3NzQ=",
+        "first_name": "Barbara",
+        "last_name": "Rogoff",
+        "avg_rating": 3,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 52.9412,
+        "num_ratings": 49
+    },
+    "Hayden,E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDU0MTk4",
+        "first_name": "Hayden",
+        "last_name": "Krause",
+        "avg_rating": 4.3,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 81.25,
+        "num_ratings": 16
+    },
+    "Alonso,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDgyMjYw",
+        "first_name": "Johnathan",
+        "last_name": "Alonso",
+        "avg_rating": 4.4,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 80,
+        "num_ratings": 5
+    },
+    "McNamara,M.B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjY0ODA3",
+        "first_name": "Megan",
+        "last_name": "McNamara",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 92.1569,
+        "num_ratings": 51
+    },
+    "Morse,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNTc4ODQw",
+        "first_name": "Jamie",
+        "last_name": "Morse",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 71.4286,
+        "num_ratings": 6
+    },
+    "Argenal,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTE3MDcx",
+        "first_name": "Amy",
+        "last_name": "Argenal",
+        "avg_rating": 5,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 100,
+        "num_ratings": 11
+    },
+    "Zhao,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDA3MjIy",
+        "first_name": "Mengyang",
+        "last_name": "Zhao",
+        "avg_rating": 0,
+        "avg_difficulty": 0,
+        "would_take_again_percent": -1,
+        "num_ratings": 0
+    },
+    "Barbora,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDQ1NTAy",
+        "first_name": "Sanjay",
+        "last_name": "Barbora",
+        "avg_rating": 4.8,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 4
+    },
+    "Mccullen,C.G.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDI1MzI0",
+        "first_name": "Christie",
+        "last_name": "Mccullen",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 97.9167,
+        "num_ratings": 48
+    },
+    "Pedroza,J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDcxNzMz",
+        "first_name": "Juan",
+        "last_name": "Pedroza",
+        "avg_rating": 4.5,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 93.3333,
+        "num_ratings": 15
+    },
+    "Benner,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTE0ODE5",
+        "first_name": "Chris",
+        "last_name": "Benner",
+        "avg_rating": 4.3,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 100,
+        "num_ratings": 2
+    },
+    "Harrison,L.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzUzMDM2",
+        "first_name": "Laura",
+        "last_name": "Harrison",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 57.1429,
+        "num_ratings": 7
+    },
+    "Mitchell,K.W.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzIzNDc=",
+        "first_name": "Richard",
+        "last_name": "Mitchell",
+        "avg_rating": 4.7,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 100,
+        "num_ratings": 144
+    },
+    "Reardon,J.E.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci04MjE3NzI=",
+        "first_name": "Jennifer",
+        "last_name": "Reardon",
+        "avg_rating": 3.2,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 28.5714,
+        "num_ratings": 32
+    },
+    "Angelo,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMTIxODkz",
+        "first_name": "Hillary",
+        "last_name": "Angelo",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 10
+    },
+    "Castillo Trelles,C.": {
+        "status": "not_found",
+        "searched_last": "Castillo Trelles",
+        "initial": "C"
+    },
+    "Malone,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjM0NjI1",
+        "first_name": "Sandra",
+        "last_name": "Malone",
+        "avg_rating": 4,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 77.7778,
+        "num_ratings": 9
+    },
+    "Barahona,B.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTUwNDAy",
+        "first_name": "Byron",
+        "last_name": "Barahona",
+        "avg_rating": 4.2,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 83.3333,
+        "num_ratings": 29
+    },
+    "Zyzik,E.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTk5ODAx",
+        "first_name": "Eve",
+        "last_name": "Zyzik",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 100,
+        "num_ratings": 12
+    },
+    "Gonzalez Pagani,M.": {
+        "status": "not_found",
+        "searched_last": "Gonzalez Pagani",
+        "initial": "M"
+    },
+    "Wang,Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDMxMDA1",
+        "first_name": "Yunan",
+        "last_name": "Wang",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 73.0769,
+        "num_ratings": 51
+    },
+    "Prado,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci01NjYzMjM=",
+        "first_name": "Raquel",
+        "last_name": "Prado",
+        "avg_rating": 2.6,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 22.7273,
+        "num_ratings": 39
+    },
+    "Lund,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTgwNjk1",
+        "first_name": "Robert",
+        "last_name": "Lund",
+        "avg_rating": 5,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 1
+    },
+    "Kottas,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00NzUzMTg=",
+        "first_name": "Athanasios",
+        "last_name": "Kottas",
+        "avg_rating": 2.3,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 38.8889,
+        "num_ratings": 37
+    },
+    "Li,Z.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDc2NzMy",
+        "first_name": "Longzhi",
+        "last_name": "Lin",
+        "avg_rating": 1.5,
+        "avg_difficulty": 4.2,
+        "would_take_again_percent": 7.6923,
+        "num_ratings": 26
+    },
+    "Heald,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTIwMjky",
+        "first_name": "Abigail",
+        "last_name": "Heald",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 68.4211,
+        "num_ratings": 23
+    },
+    "Childers,G.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjQwMzg3",
+        "first_name": "Geoff",
+        "last_name": "Childers",
+        "avg_rating": 4.6,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 78.5714,
+        "num_ratings": 27
+    },
+    "Samuels,J.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjU5MTg5",
+        "first_name": "Jessica",
+        "last_name": "Samuels",
+        "avg_rating": 4.4,
+        "avg_difficulty": 1.9,
+        "would_take_again_percent": 87.5,
+        "num_ratings": 41
+    },
+    "Rifaqat,Z.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjEyMTQ5",
+        "first_name": "Zeb",
+        "last_name": "Rifaqat",
+        "avg_rating": 4,
+        "avg_difficulty": 3.1,
+        "would_take_again_percent": 77.4194,
+        "num_ratings": 37
+    },
+    "Silver,K.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTU2Mjgz",
+        "first_name": "Kiva",
+        "last_name": "Silver",
+        "avg_rating": 4.4,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 73.3333,
+        "num_ratings": 58
+    },
+    "Fritsch,G.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MjEzNzY=",
+        "first_name": "Greg",
+        "last_name": "Fritsch",
+        "avg_rating": 4,
+        "avg_difficulty": 1.8,
+        "would_take_again_percent": 100,
+        "num_ratings": 31
+    },
+    "Magalhaes,M.": {
+        "status": "not_found",
+        "searched_last": "Magalhaes",
+        "initial": "M"
+    },
+    "Wear,R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTYwMTM2",
+        "first_name": "Rebecca",
+        "last_name": "Wear",
+        "avg_rating": 3.5,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 6
+    },
+    "Solt,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDQxNzM2",
+        "first_name": "Susan",
+        "last_name": "Solt",
+        "avg_rating": 2.6,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 30.7692,
+        "num_ratings": 13
+    },
+    "Chemers,M.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzcyMjgz",
+        "first_name": "Michael",
+        "last_name": "Chemers",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 62,
+        "num_ratings": 73
+    },
+    "Pearlman,C.": {
+        "status": "not_found",
+        "searched_last": "Pearlman",
+        "initial": "C"
+    },
+    "Williams,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjg4NjEy",
+        "first_name": "Donald",
+        "last_name": "Williams",
+        "avg_rating": 3.8,
+        "avg_difficulty": 1.5,
+        "would_take_again_percent": 71.4286,
+        "num_ratings": 14
+    },
+    "Maier,D.S.": {
+        "status": "not_found",
+        "searched_last": "Maier",
+        "initial": "D"
+    },
+    "Rollins,L.": {
+        "status": "not_found",
+        "searched_last": "Rollins",
+        "initial": "L"
+    },
+    "Lee,C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTY0ODY4",
+        "first_name": "Cynthia",
+        "last_name": "Lee",
+        "avg_rating": 2.7,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 33.3333,
+        "num_ratings": 3
+    },
+    "Munger,T.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTUzMTA3",
+        "first_name": "Tyler",
+        "last_name": "Munger",
+        "avg_rating": 5,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 100,
+        "num_ratings": 9
+    },
+    "Wirls,D.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMzM2MDE=",
+        "first_name": "Dan",
+        "last_name": "Wirls",
+        "avg_rating": 4.2,
+        "avg_difficulty": 3.5,
+        "would_take_again_percent": 89.1892,
+        "num_ratings": 112
+    },
+    "Navarro,J.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDA0MjIz",
+        "first_name": "Joseph",
+        "last_name": "Navarro",
+        "avg_rating": 2.3,
+        "avg_difficulty": 4.1,
+        "would_take_again_percent": 19.0476,
+        "num_ratings": 42
+    },
+    "Breakspear,A.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDQ5Nzk4",
+        "first_name": "Anthony",
+        "last_name": "Breakspear",
+        "avg_rating": 4.4,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 82.6923,
+        "num_ratings": 61
+    },
+    "Abrams,E.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MjEzNzM=",
+        "first_name": "Elizabeth",
+        "last_name": "Abrams",
+        "avg_rating": 2.8,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 17.6471,
+        "num_ratings": 42
+    },
+    "Perera,N.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNjgwNTQ0",
+        "first_name": "Nirshan",
+        "last_name": "Perera",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 87.8788,
+        "num_ratings": 65
+    },
+    "El Dessouky,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDA0MDYw",
+        "first_name": "Dina El",
+        "last_name": "Dessouky",
+        "avg_rating": 4.6,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 100,
+        "num_ratings": 12
+    },
+    "Coulter,S.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODA1ODA0",
+        "first_name": "Steven",
+        "last_name": "Coulter",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 92.9825,
+        "num_ratings": 61
+    },
+    "Halk,E.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjYxMDUz",
+        "first_name": "Erica",
+        "last_name": "Halk",
+        "avg_rating": 4.1,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 63.6364,
+        "num_ratings": 21
+    },
+    "Michals,S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTY5NDcz",
+        "first_name": "Sarah",
+        "last_name": "Michals",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.6,
+        "would_take_again_percent": 80.9524,
+        "num_ratings": 24
+    },
+    "Newberry,E.S.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00MTkwNTU=",
+        "first_name": "Ellen",
+        "last_name": "Newberry",
+        "avg_rating": 3.6,
+        "avg_difficulty": 2.8,
+        "would_take_again_percent": 42.4242,
+        "num_ratings": 69
+    },
+    "Osborne,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjAyNzIz",
+        "first_name": "Bettina",
+        "last_name": "Osborne",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2.2,
+        "would_take_again_percent": 95.4545,
+        "num_ratings": 22
+    },
+    "Shanley,B.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMTMwOTU0",
+        "first_name": "Brett",
+        "last_name": "Shanley",
+        "avg_rating": 4.7,
+        "avg_difficulty": 2,
+        "would_take_again_percent": 100,
+        "num_ratings": 3
+    },
+    "Amis,M.C.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjk2MzY2",
+        "first_name": "Margaret",
+        "last_name": "Amis",
+        "avg_rating": 3.2,
+        "avg_difficulty": 2.9,
+        "would_take_again_percent": 48.2759,
+        "num_ratings": 37
+    },
+    "Baker,M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNjAwODk=",
+        "first_name": "Mark",
+        "last_name": "Baker",
+        "avg_rating": 4.1,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 48.3871,
+        "num_ratings": 93
+    },
+    "Hagen,J.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci05NTg5MjM=",
+        "first_name": "Joy",
+        "last_name": "Hagen",
+        "avg_rating": 2.5,
+        "avg_difficulty": 3,
+        "would_take_again_percent": 22.5806,
+        "num_ratings": 50
+    },
+    "Shearer,H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMDI0MzUy",
+        "first_name": "Heather",
+        "last_name": "Shearer",
+        "avg_rating": 5,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 94.1176,
+        "num_ratings": 20
+    },
+    "WouldGo,T.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjQzMjU4",
+        "first_name": "Tanner",
+        "last_name": "WouldGo",
+        "avg_rating": 4.4,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 80,
+        "num_ratings": 5
+    },
+    "Garrecht-Williams,C.K.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNzQ2ODI5",
+        "first_name": "Christopher",
+        "last_name": "Garrecht-Williams",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.1,
+        "would_take_again_percent": 93.3333,
+        "num_ratings": 30
+    },
+    "Lunine,B.D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDY2MjY=",
+        "first_name": "Brij",
+        "last_name": "Lunine",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 97.4359,
+        "num_ratings": 87
+    },
+    "Kirsch,T.J.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMzg2MjI4",
+        "first_name": "Taylor",
+        "last_name": "Kirsch",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.4,
+        "would_take_again_percent": 88.2353,
+        "num_ratings": 17
+    },
+    "Silva,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDcwNDE5",
+        "first_name": "Denise",
+        "last_name": "Silva",
+        "avg_rating": 3.4,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 46.4286,
+        "num_ratings": 43
+    },
+    "Carney-Waddy,S.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTc4ODM3",
+        "first_name": "Susannah ",
+        "last_name": " Carney-Waddy",
+        "avg_rating": 3.6,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 9
+    },
+    "Wong,T.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMDg5ODQ1",
+        "first_name": "Tiffany",
+        "last_name": "Wong",
+        "avg_rating": 4.8,
+        "avg_difficulty": 2.5,
+        "would_take_again_percent": 91.6667,
+        "num_ratings": 31
+    },
+    "Longo,P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xNzAwOTQx",
+        "first_name": "Philip",
+        "last_name": "Longo",
+        "avg_rating": 3.9,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 66.6667,
+        "num_ratings": 40
+    },
+    "Loeffler,T.H.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMjYwMzE5",
+        "first_name": "Toby",
+        "last_name": "Loeffler",
+        "avg_rating": 4.5,
+        "avg_difficulty": 3.7,
+        "would_take_again_percent": 92.3077,
+        "num_ratings": 63
+    },
+    "Lane,M.M.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yMjE4OTE2",
+        "first_name": "Madeline",
+        "last_name": "Lane-McKinley",
+        "avg_rating": 4.4,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 83.871,
+        "num_ratings": 31
+    },
+    "Schilz,L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xODk5NDUw",
+        "first_name": "Lisa",
+        "last_name": "Schilz",
+        "avg_rating": 4.9,
+        "avg_difficulty": 2.7,
+        "would_take_again_percent": 93.5484,
+        "num_ratings": 33
+    },
+    "Vidali,A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNDY5Mzgx",
+        "first_name": "Amy",
+        "last_name": "Vidali",
+        "avg_rating": 4.6,
+        "avg_difficulty": 3.2,
+        "would_take_again_percent": 92.3077,
+        "num_ratings": 13
+    },
+    "Galas,L.R.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yNjAzODYz",
+        "first_name": "Lara",
+        "last_name": "Galas",
+        "avg_rating": 3,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 50,
+        "num_ratings": 40
+    },
+    "King,R.Y.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci00NjcwNjI=",
+        "first_name": "Robin",
+        "last_name": "King",
+        "avg_rating": 3,
+        "avg_difficulty": 3.4,
+        "would_take_again_percent": 26.1905,
+        "num_ratings": 79
+    },
+    "Bose,D.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0zMDI4NDU4",
+        "first_name": "Dev",
+        "last_name": "Bose",
+        "avg_rating": 3.2,
+        "avg_difficulty": 3.8,
+        "would_take_again_percent": 46.1538,
+        "num_ratings": 13
+    },
+    "Hamilton,R.P.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0yOTAwMDE=",
+        "first_name": "Roxanne",
+        "last_name": "Hamilton",
+        "avg_rating": 3,
+        "avg_difficulty": 3.3,
+        "would_take_again_percent": 44,
+        "num_ratings": 71
+    },
+    "Terhaar,T.L.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xMTE2MTcz",
+        "first_name": "Terry",
+        "last_name": "Terhaar",
+        "avg_rating": 2.5,
+        "avg_difficulty": 4,
+        "would_take_again_percent": 17.3077,
+        "num_ratings": 64
+    },
+    "Helmer,K.A.": {
+        "status": "ok",
+        "rmp_id": "VGVhY2hlci0xOTc2MTU5",
+        "first_name": "Kimberly",
+        "last_name": "Helmer",
+        "avg_rating": 3.8,
+        "avg_difficulty": 2.3,
+        "would_take_again_percent": 90,
+        "num_ratings": 13
+    }
+}
