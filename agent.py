@@ -7,21 +7,34 @@ def load_data():
     return courses, rmp_cache
 
 def extract_units(content):
-    # Most UCSC courses are 5 units, some are 2 or 3
-    return 5  # default, can be improved
+    return 5
+
+def clean_text(text):
+    if not text:
+        return text
+    text = text.replace('\u00c2\u00a0', ' ').replace('\xa0', ' ').replace('Â', '').replace('\ufffd', ' ')
+    text = re.sub(r'\s+', ' ', text)
+    return text.strip()
 
 def extract_instructor(content):
-    for line in content.splitlines():
-        if 'Instructor' in line:
+    lines = content.splitlines()
+    for idx, line in enumerate(lines):
+        if re.match(r'^\s*Instructor\s*:\s*$', line, re.I):
+            for next_line in lines[idx + 1:]:
+                candidate = clean_text(next_line.strip())
+                if candidate:
+                    return candidate
+            return None
+        if 'Instructor:' in line:
             parts = line.split(':', 1)
             if len(parts) > 1 and parts[1].strip():
-                return parts[1].strip()
+                return clean_text(parts[1])
     return None
 
 def extract_time(content):
     for line in content.splitlines():
         if any(day in line for day in ['MWF', 'TuTh', 'MW', 'TTh', 'Mon', 'Tue']):
-            return line.strip()
+            return clean_text(line)
     return None
 
 def get_rmp_rating(instructor, rmp_cache):
@@ -31,32 +44,45 @@ def get_rmp_rating(instructor, rmp_cache):
             return data.get('avg_rating', 0)
     return None
 
-def recommend_schedule(user_input, target_units=15, min_rating=3.5, no_early=True):
+def parse_input(user_input):
+    target_units = 15
+    min_rating = 3.5
+    no_early = False
+
+    if match := re.search(r'(\d+)\s*units', user_input, re.I):
+        target_units = int(match.group(1))
+    if any(w in user_input.lower() for w in ['easy', 'good professor', 'high rated']):
+        min_rating = 4.0
+    if any(w in user_input.lower() for w in ['no 8', 'no early', 'no morning']):
+        no_early = True
+
+    return target_units, min_rating, no_early
+
+def recommend_schedule(user_input):
+    target_units, min_rating, no_early = parse_input(user_input)
     courses, rmp_cache = load_data()
-    
+
     recommended = []
     total_units = 0
-    
+
     for course in courses:
         if total_units >= target_units:
             break
-            
+
         content = course.get('content', '')
         time = extract_time(content)
         instructor = extract_instructor(content)
         rating = get_rmp_rating(instructor, rmp_cache)
-        
-        # Skip early classes if requested
-        if no_early and time and '8:00AM' in time:
+
+        if no_early and time and any(t in time for t in ['8:', '08:']):
             continue
-            
-        # Filter by RMP rating
+
         if rating and rating < min_rating:
             continue
-            
+
         units = extract_units(content)
         recommended.append({
-            'title': course['title'],
+            'title': clean_text(course.get('title', '')),
             'instructor': instructor,
             'rmp_rating': rating,
             'time': time,
@@ -64,10 +90,13 @@ def recommend_schedule(user_input, target_units=15, min_rating=3.5, no_early=Tru
             'units': units
         })
         total_units += units
-    
+
     return recommended
 
+def run_tool(user_input: str) -> str:
+    results = recommend_schedule(user_input)
+    return json.dumps(results, indent=2)
+
 if __name__ == '__main__':
-    results = recommend_schedule("15 units, easy professors, no 8am")
-    for r in results:
-        print(json.dumps(r, indent=2))
+    user_input = "I want 15 units, easy professors, no 8am classes"
+    print(run_tool(user_input))
