@@ -65,9 +65,38 @@ def parse_input(user_input):
 
     return target_units, min_rating, no_early, completed
 
+def meets_prerequisites(prereqs, completed_normalized):
+    """Check if completed courses satisfy prerequisites."""
+    if not prereqs or prereqs == 'None' or 'section not found' in prereqs:
+        return True
+
+    # Extract all course codes mentioned in prereqs
+    required = re.findall(r'[A-Z]{2,4}\s*\d+[A-Z]?', prereqs)
+    if not required:
+        return True
+
+    # Check if at least one prereq option is met
+    # Most UCSC prereqs use "or" between options
+    for req in required:
+        if req.replace(' ', '') in completed_normalized:
+            return True
+
+    return False
+
 def recommend_schedule(user_input):
     target_units, min_rating, no_early, completed = parse_input(user_input)
     courses, rmp_cache = load_data()
+
+    # Normalize completed courses for comparison
+    completed_normalized = [c.replace(' ', '') for c in completed]
+
+    # Get minimum course number from completed to filter out lower level courses
+    completed_nums = []
+    for c in completed:
+        num = re.search(r'\d+', c)
+        if num:
+            completed_nums.append(int(num.group()))
+    min_completed_num = min(completed_nums) if completed_nums else 0
 
     # Detect major and sort matching courses first
     major_prefix = None
@@ -109,7 +138,17 @@ def recommend_schedule(user_input):
 
         # Skip already completed courses
         course_code = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', course.get('title', ''))
-        if course_code and course_code.group().replace(' ', '') in [c.replace(' ', '') for c in completed]:
+        if course_code and course_code.group().replace(' ', '') in completed_normalized:
+            continue
+
+        # Skip courses below user's level
+        if course_code and completed_nums:
+            course_num = re.search(r'\d+', course_code.group())
+            if course_num and int(course_num.group()) < min_completed_num:
+                continue
+
+        # Skip courses whose prerequisites user hasn't met
+        if completed_normalized and not meets_prerequisites(prereqs, completed_normalized):
             continue
 
         units = extract_units(content)
