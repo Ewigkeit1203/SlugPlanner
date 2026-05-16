@@ -1,7 +1,9 @@
 import json
 import re
+from check_prereq import check_prerequisites
 
 def load_data():
+    # Enforce using your completed master file names
     courses = json.load(open('ucsc_courses_with_preq.json'))
     rmp_cache = json.load(open('rmp_cache.json'))
     return courses, rmp_cache
@@ -40,12 +42,14 @@ def extract_time(content):
 def get_rmp_data(instructor, rmp_cache):
     if instructor and instructor in rmp_cache:
         data = rmp_cache[instructor]
-        if data.get('status') == 'ok':
-            return {
-                'rating': data.get('avg_rating'),
-                'difficulty': data.get('avg_difficulty'),
-                'would_take_again': data.get('would_take_again_percent')
-            }
+        # Supporting both 'ok' wrappers and raw dictionary returns natively
+        if isinstance(data, dict):
+            if data.get('status') == 'ok' or 'avg_rating' in data:
+                return {
+                    'rating': data.get('avg_rating') or data.get('rating'),
+                    'difficulty': data.get('avg_difficulty') or data.get('difficulty'),
+                    'would_take_again': data.get('would_take_again_percent') or data.get('would_take_again')
+                }
     return {'rating': None, 'difficulty': None, 'would_take_again': None}
 
 def parse_input(user_input):
@@ -62,54 +66,26 @@ def parse_input(user_input):
         no_early = True
 
     completed = re.findall(r'[A-Z]{2,4}\s*\d+[A-Z]?', user_input)
-
     return target_units, min_rating, no_early, completed
 
 def detect_major(user_input):
     input_lower = user_input.lower()
-
     major_map = {
         'CSE': ['cs major', 'computer science', 'cse major', 'software', 'computing'],
         'MATH': ['math major', 'mathematics', 'applied math'],
-        'BIOL': ['biology major', 'bio major', 'biological'],
-        'PHYS': ['physics major', 'physics'],
-        'CHEM': ['chemistry major', 'chem major'],
-        'ECON': ['econ major', 'economics major', 'economics'],
-        'PSYC': ['psychology major', 'psych major', 'psychology'],
-        'ENGR': ['engineering major', 'general engineering'],
-        'ECE': ['electrical engineering', 'ece major', 'electrical eng'],
-        'LING': ['linguistics major', 'ling major'],
-        'PHIL': ['philosophy major', 'phil major'],
-        'SOCY': ['sociology major', 'sociology'],
-        'HIST': ['history major', 'history'],
-        'ANTH': ['anthropology major', 'anth major'],
     }
-
     for prefix, keywords in major_map.items():
         if any(kw in input_lower for kw in keywords):
             return prefix
-
     return None
 
-def meets_prerequisites(prereqs, completed_normalized):
-    if not prereqs or prereqs == 'None' or 'section not found' in prereqs:
-        return True
-
-    required = re.findall(r'[A-Z]{2,4}\s*\d+[A-Z]?', prereqs)
-    if not required:
-        return True
-
-    for req in required:
-        if req.replace(' ', '') in completed_normalized:
-            return True
-
-    return False
 
 def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
-                   min_completed_num, min_rating, no_early, target_units):
+                   min_completed_num, min_rating, no_early, target_units, 
+                   is_major_pass=False, existing_units=0, existing_recommendations=None):
     """Filter courses and return recommendations up to target units."""
-    recommended = []
-    total_units = 0
+    recommended = existing_recommendations if existing_recommendations is not None else []
+    total_units = existing_units
 
     for course in courses:
         if total_units >= target_units:
@@ -125,25 +101,39 @@ def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
         if not instructor or not time or instructor.lower() == 'staff':
             continue
 
+        # Hard Constraint: Time conflicts (No early classes if requested)
         if no_early and time and any(t in time for t in ['8:', '08:']):
             continue
 
-        if rating and rating < min_rating:
+        # Soft Constraint: Professor Rating
+        # BUG FIX: If this is the Major Pass, do NOT drop the course completely due to a low rating.
+        # We want to pick the course anyway because the student NEEDS it to graduate.
+        if not is_major_pass and rating and rating < min_rating:
             continue
 
-        course_code = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', course.get('title', ''))
+        course_code_match = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', course.get('title', ''))
 
-        if course_code and course_code.group().replace(' ', '') in completed_normalized:
-            continue
+        if course_code_match:
+            course_code = course_code_match.group().replace(' ', '')
+            
+            # Skip if already taken
+            if course_code in completed_normalized:
+                continue
 
-        if course_code and completed_nums:
-            course_num = re.search(r'\d+', course_code.group())
-            if course_num:
-                num = int(course_num.group())
-                if num < min_completed_num or num >= 200:
-                    continue
+            # Prevent duplication if already added in a previous pass
+            if any(rec['title'] == clean_text(course.get('title', '')) for rec in recommended):
+                continue
 
-        if completed_normalized and not meets_prerequisites(prereqs, completed_normalized):
+            # Skip lower-level courses if completed_nums constraints are active
+            if completed_nums:
+                course_num = re.search(r'\d+', course_code)
+                if course_num:
+                    num = int(course_num.group())
+                    if num < min_completed_num or num >= 200:
+                        continue
+
+        # Hard Constraint: Prerequisite check engine
+        if completed_normalized and not check_prerequisites(prereqs, completed_normalized):
             continue
 
         units = extract_units(content)
@@ -159,7 +149,8 @@ def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
         })
         total_units += units
 
-    return recommended
+    return recommended, total_units
+
 
 def recommend_schedule(user_input):
     target_units, min_rating, no_early, completed = parse_input(user_input)
@@ -176,31 +167,38 @@ def recommend_schedule(user_input):
 
     major_prefix = detect_major(user_input)
 
+    # Separate our main list into Major track buckets and General track buckets
     if major_prefix:
         major_courses = [c for c in courses if major_prefix in c.get('title', '')]
         other_courses = [c for c in courses if major_prefix not in c.get('title', '')]
-        courses = major_courses + other_courses
+    else:
+        major_courses = []
+        other_courses = courses
 
-    # First attempt with requested min_rating
-    recommended = filter_courses(
-        courses, rmp_cache, completed_normalized, completed_nums,
-        min_completed_num, min_rating, no_early, target_units
-    )
+    # Sort major courses by rating descending so we find the best professors available first
+    major_courses.sort(key=lambda x: get_rmp_data(extract_instructor(x.get('content', '')), rmp_cache)['rating'] or 0, reverse=True)
 
-    # Fallback: if not enough courses found, lower rating threshold by 0.5
-    if len(recommended) < 3 and min_rating > 2.0:
-        fallback_rating = min_rating - 0.5
-        recommended = filter_courses(
-            courses, rmp_cache, completed_normalized, completed_nums,
-            min_completed_num, fallback_rating, no_early, target_units
+    recommended = []
+    total_units = 0
+
+    # ─── PASS 1: CORE MAJOR TRACK LOCK ───
+    if major_courses:
+        recommended, total_units = filter_courses(
+            major_courses, rmp_cache, completed_normalized, completed_nums,
+            min_completed_num, min_rating, no_early, target_units,
+            is_major_pass=True, existing_units=total_units, existing_recommendations=recommended
         )
 
-    # Second fallback: lower by another 0.5
-    if len(recommended) < 3 and min_rating > 1.5:
-        fallback_rating = min_rating - 1.0
-        recommended = filter_courses(
-            courses, rmp_cache, completed_normalized, completed_nums,
-            min_completed_num, fallback_rating, no_early, target_units
+    # ─── PASS 2: ELECTIVE / GE FILLER PASS ───
+    # If the student still needs units, look at outside departments with strict rating guards
+    if total_units < target_units and other_courses:
+        # Sort other courses by rating so the best options get evaluated first
+        other_courses.sort(key=lambda x: get_rmp_data(extract_instructor(x.get('content', '')), rmp_cache)['rating'] or 0, reverse=True)
+        
+        recommended, total_units = filter_courses(
+            other_courses, rmp_cache, completed_normalized, completed_nums,
+            min_completed_num, min_rating, no_early, target_units,
+            is_major_pass=False, existing_units=total_units, existing_recommendations=recommended
         )
 
     return recommended
@@ -210,5 +208,5 @@ def run_tool(user_input: str) -> str:
     return json.dumps(results, indent=2)
 
 if __name__ == '__main__':
-    user_input = "I want 15 units, easy professors, no 8am classes"
+    user_input = "I am a computer science major. I want 15 units, easy professors, no 8am classes. I have completed CSE 20 and MATH 19A"
     print(run_tool(user_input))
