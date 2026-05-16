@@ -155,11 +155,13 @@ def recommend_schedule(user_input):
         if course_code and course_code.group().replace(' ', '') in completed_normalized:
             continue
 
-        # Skip courses below user's level
+        # Skip courses below user's level or graduate level (200+)
         if course_code and completed_nums:
             course_num = re.search(r'\d+', course_code.group())
-            if course_num and int(course_num.group()) < min_completed_num:
-                continue
+            if course_num:
+                num = int(course_num.group())
+                if num < min_completed_num or num >= 200:
+                    continue
 
         # Skip courses whose prerequisites user hasn't met
         if completed_normalized and not meets_prerequisites(prereqs, completed_normalized):
