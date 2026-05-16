@@ -69,6 +69,21 @@ def recommend_schedule(user_input):
     target_units, min_rating, no_early, completed = parse_input(user_input)
     courses, rmp_cache = load_data()
 
+    # Detect major and sort matching courses first
+    major_prefix = None
+    input_lower = user_input.lower()
+    if 'cs major' in input_lower or 'computer science' in input_lower:
+        major_prefix = 'CSE'
+    elif 'math major' in input_lower or 'mathematics' in input_lower:
+        major_prefix = 'MATH'
+    elif 'biology major' in input_lower:
+        major_prefix = 'BIOL'
+    elif 'physics major' in input_lower:
+        major_prefix = 'PHYS'
+
+    if major_prefix:
+        courses = sorted(courses, key=lambda c: (0 if major_prefix in c.get('title', '') else 1))
+
     recommended = []
     total_units = 0
 
