@@ -13,7 +13,7 @@ How it works:
 
 Challenges:
 IP blockage:
-RMP have anti scrape script, there might be issue when we are craping the whole website and get banned.
+RMP have anti scrape script, there might be issue when we are scraping the whole website and get ip banned.
 
 How to solve:
 Add time delay, try to make it like human operation.
