@@ -1,0 +1,194 @@
+{
+  "CSE": {
+    "CSE20": {
+      "prereqs": [],
+      "required": true
+    },
+    "CSE30": {
+      "prereqs": [],
+      "required": true
+    },
+    "MATH19A": {
+      "prereqs": [],
+      "required": true
+    },
+    "MATH19B": {
+      "prereqs": [
+        "MATH19A"
+      ],
+      "required": true
+    },
+    "MATH23A": {
+      "prereqs": [
+        "MATH19B"
+      ],
+      "required": true
+    },
+    "MATH23B": {
+      "prereqs": [
+        "MATH23A"
+      ],
+      "required": true
+    },
+    "CSE16": {
+      "prereqs": [],
+      "required": true
+    },
+    "CSE40": {
+      "prereqs": [
+        "CSE30"
+      ],
+      "required": true
+    },
+    "CSE101": {
+      "prereqs": [
+        "CSE30",
+        "CSE20"
+      ],
+      "required": true
+    },
+    "CSE102": {
+      "prereqs": [
+        "CSE101"
+      ],
+      "required": true
+    },
+    "CSE103": {
+      "prereqs": [
+        "CSE101",
+        "CSE16"
+      ],
+      "required": true
+    },
+    "CSE110": {
+      "prereqs": [
+        "CSE40",
+        "CSE101"
+      ],
+      "required": true
+    },
+    "CSE111": {
+      "prereqs": [
+        "CSE110"
+      ],
+      "required": true
+    },
+    "CSE112": {
+      "prereqs": [
+        "CSE110"
+      ],
+      "required": true
+    },
+    "CSE120": {
+      "prereqs": [
+        "CSE110"
+      ],
+      "required": true
+    },
+    "CSE130": {
+      "prereqs": [
+        "CSE101",
+        "CSE30"
+      ],
+      "required": true
+    },
+    "CSE115A": {
+      "prereqs": [
+        "CSE101",
+        "CSE30"
+      ],
+      "required": false
+    },
+    "CSE115B": {
+      "prereqs": [
+        "CSE115A"
+      ],
+      "required": false
+    },
+    "CSE150": {
+      "prereqs": [
+        "CSE101",
+        "CSE102"
+      ],
+      "required": false
+    },
+    "CSE160": {
+      "prereqs": [
+        "CSE101"
+      ],
+      "required": false
+    },
+    "CSE183": {
+      "prereqs": [
+        "CSE110"
+      ],
+      "required": false
+    },
+    "CSE185S": {
+      "prereqs": [
+        "CSE101"
+      ],
+      "required": false
+    }
+  },
+  "MATH": {
+    "MATH19A": {
+      "prereqs": [],
+      "required": true
+    },
+    "MATH19B": {
+      "prereqs": [
+        "MATH19A"
+      ],
+      "required": true
+    },
+    "MATH23A": {
+      "prereqs": [
+        "MATH19B"
+      ],
+      "required": true
+    },
+    "MATH23B": {
+      "prereqs": [
+        "MATH23A"
+      ],
+      "required": true
+    },
+    "MATH100": {
+      "prereqs": [
+        "MATH23B"
+      ],
+      "required": true
+    },
+    "MATH101": {
+      "prereqs": [
+        "MATH100"
+      ],
+      "required": true
+    },
+    "MATH103A": {
+      "prereqs": [
+        "MATH23B"
+      ],
+      "required": true
+    },
+    "MATH110": {
+      "prereqs": [
+        "MATH23B"
+      ],
+      "required": false
+    },
+    "MATH117": {
+      "prereqs": [
+        "MATH23B"
+      ],
+      "required": false
+    },
+    "MATH128A": {
+      "prereqs": [
+        "MATH23B"
+      ],
+      "required": false
+    }
+  }
+}
