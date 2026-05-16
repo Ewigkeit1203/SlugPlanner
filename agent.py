@@ -120,6 +120,11 @@ def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
             if course_code in completed_normalized:
                 continue
 
+            # Skip antirequisites
+            if any(c in prereqs for c in completed_normalized):
+                if 'cannot enroll' in prereqs.lower() or 'antirequisite' in prereqs.lower():
+                    continue
+
             # Prevent duplication if already added in a previous pass
             if any(rec['title'] == clean_text(course.get('title', '')) for rec in recommended):
                 continue
