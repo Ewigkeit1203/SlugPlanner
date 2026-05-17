@@ -68,15 +68,32 @@ def parse_input(user_input):
     return target_units, min_rating, no_early, completed
 
 def detect_major(user_input):
+    """
+    Analyzes the prompt to find the specific catalog key (e.g., 'CSE_BS') 
+    and the department prefix (e.g., 'CSE') for filtering.
+    """
     input_lower = user_input.lower()
-    major_map = {
-        'CSE': ['cs major', 'computer science', 'cse major', 'software', 'computing'],
-        'MATH': ['math major', 'mathematics', 'applied math'],
-    }
-    for prefix, keywords in major_map.items():
-        if any(kw in input_lower for kw in keywords):
-            return prefix
-    return None
+    
+    catalog_key = None
+    dept_prefix = None
+    
+    # Check for Applied Math
+    if any(kw in input_lower for kw in ['applied math', 'applied mathematics']):
+        catalog_key = 'AM_BS'
+        dept_prefix = 'AM' 
+        
+    # Check for Computer Science
+    elif any(kw in input_lower for kw in ['cs major', 'computer science', 'cse major', 'software']):
+        dept_prefix = 'CSE'
+        # Differentiate between BA and BS
+        if any(kw in input_lower for kw in ['b.a.', ' ba', 'arts']):
+            catalog_key = 'CSE_BA'
+        else:
+            catalog_key = 'CSE_BS' # Default to B.S. if not specified
+            
+    # Add more elif blocks here as you add more majors to your JSON!
+            
+    return catalog_key, dept_prefix
 
 def get_frontier_courses(major_track, completed):
     """
@@ -152,48 +169,49 @@ def recommend_schedule(user_input):
     courses, rmp_cache, major_catalog = load_data()
 
     completed_normalized = [c.replace(' ', '').upper() for c in completed]
-
     completed_nums = [int(num.group()) for c in completed if (num := re.search(r'\d+', c))]
     min_completed_num = min(completed_nums) if completed_nums else 0
 
-    major_prefix = detect_major(user_input)
+    # 1. USE THE NEW ROUTER
+    catalog_key, dept_prefix = detect_major(user_input)
     
     frontier_data = []
-    if major_prefix and major_prefix in major_catalog:
-        frontier_data = get_frontier_courses(major_catalog[major_prefix], completed_normalized)
+    # 2. PULL THE EXACT MAJOR TRACK FROM THE JSON
+    if catalog_key and catalog_key in major_catalog:
+        frontier_data = get_frontier_courses(major_catalog[catalog_key], completed_normalized)
 
-    # Fast O(1) lookups
     frontier_codes = {item["code"] for item in frontier_data}
     required_frontier = {item["code"] for item in frontier_data if item["required"]}
 
     frontier_courses = []
     other_courses = []
 
-    # O(N) single-pass separation
     for c in courses:
         title = c.get('title', '')
         course_code_match = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', title)
         
         if course_code_match:
             code = course_code_match.group().replace(' ', '').upper()
-            
             if code in frontier_codes:
-                # Add a sorting weight: Required classes get +10 points to push them to the top
                 sort_weight = 10 if code in required_frontier else 0
                 c['_sort_weight'] = sort_weight
                 frontier_courses.append(c)
-            elif major_prefix and major_prefix in code:
-                # The course is in the student's major department, but NOT in the frontier.
-                # This means it's either already completed or completely locked. Skip it!
+                
+            # 3. USE THE DEPT PREFIX TO HIDE LOCKED MAJOR CLASSES
+            elif dept_prefix and dept_prefix in code:
+                # Locked or already completed major classes
                 continue
             else:
                 other_courses.append(c)
         else:
             other_courses.append(c)
 
-    # ─── PASS 1: CORE MAJOR TRACK LOCK ───
     recommended = []
     total_units = 0
+    
+    # ... (The rest of Pass 1 and Pass 2 remains exactly the same!) ...
+
+    # ─── PASS 1: CORE MAJOR TRACK LOCK ───
 
     if frontier_courses:
         # Sort Frontier by: 1. Required Core Class, 2. Highest Professor Rating
