@@ -77,41 +77,64 @@ def detect_major(user_input):
     catalog_key = None
     dept_prefix = None
     
-    # Check for Applied Math
     if any(kw in input_lower for kw in ['applied math', 'applied mathematics']):
         catalog_key = 'AM_BS'
         dept_prefix = 'AM' 
-        
-    # Check for Computer Science
     elif any(kw in input_lower for kw in ['cs major', 'computer science', 'cse major', 'software']):
         dept_prefix = 'CSE'
-        # Differentiate between BA and BS
         if any(kw in input_lower for kw in ['b.a.', ' ba', 'arts']):
             catalog_key = 'CSE_BA'
         else:
-            catalog_key = 'CSE_BS' # Default to B.S. if not specified
-            
-    # Add more elif blocks here as you add more majors to your JSON!
+            catalog_key = 'CSE_BS'
+    elif any(kw in input_lower for kw in ['math major', 'mathematics']):
+        dept_prefix = 'MATH'
+        if any(kw in input_lower for kw in ['b.a.', ' ba', 'arts']):
+            catalog_key = 'MATH_BA'
+        else:
+            catalog_key = 'MATH_BS'
+    elif any(kw in input_lower for kw in ['electrical engineering', 'ee major']):
+        catalog_key = 'Electrical_Engineering'
+        dept_prefix = 'ECE'
+    elif any(kw in input_lower for kw in ['robotics', 'robo major']):
+        catalog_key = 'ROBO_BS'
+        dept_prefix = 'ECE'
+    elif any(kw in input_lower for kw in ['business', 'bmec']):
+        catalog_key = 'Business'
+        dept_prefix = 'ECON'
+    elif any(kw in input_lower for kw in ['econ', 'economics']):
+        catalog_key = 'ECON'
+        dept_prefix = 'ECON'
             
     return catalog_key, dept_prefix
 
-def get_frontier_courses(major_track, completed):
+def get_frontier_courses(major_track, completed, courses):
     """
-    Calculates the 'Frontier': Classes the student hasn't taken yet, 
-    but for which ALL catalog prerequisites are met.
+    Calculates the 'Frontier' by dynamically looking up the prereq string 
+    from the course database and passing it through the boolean engine.
     """
+    # Create a fast lookup dictionary mapping "CSE101" -> "Prerequisite(s): CSE 30..."
+    course_prereqs = {}
+    for c in courses:
+        title = c.get('title', '')
+        match = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', title)
+        if match:
+            code = match.group().replace(' ', '').upper()
+            course_prereqs[code] = c.get('prerequisites', 'None')
+
     frontier = []
     for course_code, data in major_track.items():
         if course_code in completed:
             continue
             
-        prereqs = data.get("prereqs", [])
-        # If all prerequisites are in our completed list, the course is unlocked!
-        if all(p in completed for p in prereqs):
+        prereq_string = course_prereqs.get(course_code, 'None')
+        
+        # Only add to frontier if the boolean logic engine clears the prerequisite!
+        if check_prerequisites(prereq_string, completed):
             frontier.append({
                 "code": course_code,
                 "required": data.get("required", False)
             })
+            
     return frontier
 
 def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
@@ -138,16 +161,15 @@ def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
         if no_early and time and any(t in time for t in ['8:', '08:']):
             continue
 
+        # Force the agent to take low-rated professors IF it's a mandatory major requirement pass
         if not is_major_pass and rating and rating < min_rating:
             continue
 
-        # Prevent duplicate entries in schedule
         if any(rec['title'] == clean_text(course.get('title', '')) for rec in recommended):
             continue
 
-        # Hard Constraint: Only check raw string prereqs for electives/GEs.
-        # Major courses are already validated by the frontier logic.
-        if not is_major_pass and completed_normalized and not check_prerequisites(prereqs, completed_normalized):
+        # 🚨 STRICT HARD CONSTRAINT: Every single class MUST pass the prereq check
+        if not check_prerequisites(prereqs, completed_normalized):
             continue
 
         units = extract_units(content)
@@ -172,13 +194,12 @@ def recommend_schedule(user_input):
     completed_nums = [int(num.group()) for c in completed if (num := re.search(r'\d+', c))]
     min_completed_num = min(completed_nums) if completed_nums else 0
 
-    # 1. USE THE NEW ROUTER
     catalog_key, dept_prefix = detect_major(user_input)
     
     frontier_data = []
-    # 2. PULL THE EXACT MAJOR TRACK FROM THE JSON
     if catalog_key and catalog_key in major_catalog:
-        frontier_data = get_frontier_courses(major_catalog[catalog_key], completed_normalized)
+        # Cross-reference the catalog track with the live course data
+        frontier_data = get_frontier_courses(major_catalog[catalog_key], completed_normalized, courses)
 
     frontier_codes = {item["code"] for item in frontier_data}
     required_frontier = {item["code"] for item in frontier_data if item["required"]}
@@ -197,9 +218,8 @@ def recommend_schedule(user_input):
                 c['_sort_weight'] = sort_weight
                 frontier_courses.append(c)
                 
-            # 3. USE THE DEPT PREFIX TO HIDE LOCKED MAJOR CLASSES
             elif dept_prefix and dept_prefix in code:
-                # Locked or already completed major classes
+                # Locked or already completed major classes are hidden
                 continue
             else:
                 other_courses.append(c)
@@ -208,13 +228,9 @@ def recommend_schedule(user_input):
 
     recommended = []
     total_units = 0
-    
-    # ... (The rest of Pass 1 and Pass 2 remains exactly the same!) ...
 
-    # ─── PASS 1: CORE MAJOR TRACK LOCK ───
-
+    # ─── PASS 1: CORE MAJOR TRACK LOCK (The Frontier) ───
     if frontier_courses:
-        # Sort Frontier by: 1. Required Core Class, 2. Highest Professor Rating
         frontier_courses.sort(
             key=lambda x: (
                 x.get('_sort_weight', 0), 
@@ -231,7 +247,6 @@ def recommend_schedule(user_input):
 
     # ─── PASS 2: ELECTIVE / GE FILLER PASS ───
     if total_units < target_units and other_courses:
-        # Sort general electives purely by the best professors
         other_courses.sort(key=lambda x: get_rmp_data(extract_instructor(x.get('content', '')), rmp_cache)['rating'] or 0, reverse=True)
         
         recommended, total_units = filter_courses(
