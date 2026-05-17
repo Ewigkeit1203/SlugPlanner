@@ -161,20 +161,25 @@ def filter_courses(courses, rmp_cache, completed_normalized, completed_nums,
         if no_early and time and any(t in time for t in ['8:', '08:']):
             continue
 
-        # Force the agent to take low-rated professors IF it's a mandatory major requirement pass
         if not is_major_pass and rating and rating < min_rating:
             continue
 
-        if any(rec['title'] == clean_text(course.get('title', '')) for rec in recommended):
+        # 🚨 THE FIX: Extract the base course code (e.g., "CSE20") to check for duplicates
+        title = clean_text(course.get('title', ''))
+        match = re.search(r'[A-Z]{2,4}\s*\d+[A-Z]?', title)
+        base_code = match.group().replace(' ', '').upper() if match else title
+
+        # Prevent duplicate base classes (Stops the agent from suggesting 3 WRIT 1s)
+        if any(rec.get('_code') == base_code for rec in recommended):
             continue
 
-        # 🚨 STRICT HARD CONSTRAINT: Every single class MUST pass the prereq check
         if not check_prerequisites(prereqs, completed_normalized):
             continue
 
         units = extract_units(content)
         recommended.append({
-            'title': clean_text(course.get('title', '')),
+            '_code': base_code, # Save the base code secretly to check against later!
+            'title': title,
             'instructor': instructor,
             'rmp_rating': rating,
             'rmp_difficulty': rmp['difficulty'],
